@@ -1,0 +1,3715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="192.168.10.233">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="dodovip">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="collectProcess"/>
+    <schema id="3" name="ddnQQ"/>
+    <schema id="4" name="ddnweb"/>
+    <schema id="5" name="dodowx"/>
+    <schema id="6" name="dospread"/>
+    <schema id="7" name="ed"/>
+    <schema id="8" name="ed_energy"/>
+    <schema id="9" name="flowcontrol"/>
+    <schema id="10" name="information_schema"/>
+    <schema id="11" name="ipac"/>
+    <schema id="12" name="leftclient">
+      <visible>1</visible>
+    </schema>
+    <schema id="13" name="marketing"/>
+    <schema id="14" name="mysql"/>
+    <schema id="15" name="MyWedding"/>
+    <schema id="16" name="netbar"/>
+    <schema id="17" name="netbarad"/>
+    <schema id="18" name="netbar_utf8"/>
+    <schema id="19" name="opcddn"/>
+    <schema id="20" name="performance_schema"/>
+    <schema id="21" name="publicrealname"/>
+    <schema id="22" name="sem"/>
+    <schema id="23" name="semopcddn"/>
+    <schema id="24" name="spmaven"/>
+    <schema id="25" name="sunlike"/>
+    <schema id="26" name="teashop"/>
+    <schema id="27" name="teashop2"/>
+    <schema id="28" name="test"/>
+    <schema id="29" name="wifidog"/>
+    <schema id="30" name="dodoftg"/>
+    <table id="31" parent="1" name="APILog_dodoqq"/>
+    <table id="32" parent="1" name="App_Preferences"/>
+    <table id="33" parent="1" name="HotSearch"/>
+    <table id="34" parent="1" name="Issue_Game"/>
+    <table id="35" parent="1" name="Issue_GameCategory"/>
+    <table id="36" parent="1" name="LOG_Email"/>
+    <table id="37" parent="1" name="LOG_Ftg_Email"/>
+    <table id="38" parent="1" name="LOG_Ftg_Login"/>
+    <table id="39" parent="1" name="LOG_Login"/>
+    <table id="40" parent="1" name="LOG_Sms"/>
+    <table id="41" parent="1" name="Net_Activity"/>
+    <table id="42" parent="1" name="Net_FeeTicket"/>
+    <table id="43" parent="1" name="Net_OnlinePlay"/>
+    <table id="44" parent="1" name="Net_OnlinePlayRecord"/>
+    <table id="45" parent="1" name="Net_PrizeSendRecord"/>
+    <table id="46" parent="1" name="Net_TicketGetInfo"/>
+    <table id="47" parent="1" name="Net_ticketType"/>
+    <table id="48" parent="1" name="OTH_Collect"/>
+    <table id="49" parent="1" name="OTH_News"/>
+    <table id="50" parent="1" name="OTH_NewsImage"/>
+    <table id="51" parent="1" name="OTH_OperateLog"/>
+    <table id="52" parent="1" name="Order_Infomation"/>
+    <table id="53" parent="1" name="Oth_Advert"/>
+    <table id="54" parent="1" name="Pop_City"/>
+    <table id="55" parent="1" name="SYS_Ftg_Module"/>
+    <table id="56" parent="1" name="SYS_Ftg_Preference"/>
+    <table id="57" parent="1" name="SYS_Ftg_Resource"/>
+    <table id="58" parent="1" name="SYS_Ftg_Resource_SYS_Ftg_Module"/>
+    <table id="59" parent="1" name="SYS_Ftg_Role"/>
+    <table id="60" parent="1" name="SYS_Ftg_User"/>
+    <table id="61" parent="1" name="SYS_Module"/>
+    <table id="62" parent="1" name="SYS_Preference"/>
+    <table id="63" parent="1" name="SYS_Preference1"/>
+    <table id="64" parent="1" name="SYS_Resource"/>
+    <table id="65" parent="1" name="SYS_Resource_SYS_Module"/>
+    <table id="66" parent="1" name="SYS_Role"/>
+    <table id="67" parent="1" name="SYS_User"/>
+    <table id="68" parent="1" name="SerialNum"/>
+    <table id="69" parent="1" name="St_Computer"/>
+    <table id="70" parent="1" name="St_Region"/>
+    <table id="71" parent="1" name="St_UserStatistics"/>
+    <table id="72" parent="1" name="Temp_Scanner"/>
+    <table id="73" parent="1" name="ThirdPartnerAccount"/>
+    <table id="74" parent="1" name="Ur_Address"/>
+    <table id="75" parent="1" name="Ur_AllinRace"/>
+    <table id="76" parent="1" name="Ur_AllinRace1"/>
+    <table id="77" parent="1" name="Ur_AllinRaceDetail"/>
+    <table id="78" parent="1" name="Ur_AllinRaceDetail1"/>
+    <table id="79" parent="1" name="Ur_AppMessage"/>
+    <table id="80" parent="1" name="Ur_Association"/>
+    <table id="81" parent="1" name="Ur_ConvertScore"/>
+    <table id="82" parent="1" name="Ur_ConvertTicket"/>
+    <table id="83" parent="1" name="Ur_FinalRace"/>
+    <table id="84" parent="1" name="Ur_FinalRaceMain"/>
+    <table id="85" parent="1" name="Ur_Game"/>
+    <table id="86" parent="1" name="Ur_GamePlatform"/>
+    <table id="87" parent="1" name="Ur_Gift"/>
+    <table id="88" parent="1" name="Ur_IssueGame"/>
+    <table id="89" parent="1" name="Ur_Lottery"/>
+    <table id="90" parent="1" name="Ur_NetBarInfo"/>
+    <table id="91" parent="1" name="Ur_NetCardRecord"/>
+    <table id="92" parent="1" name="Ur_NewQuizOrder"/>
+    <table id="93" parent="1" name="Ur_News"/>
+    <table id="94" parent="1" name="Ur_Order"/>
+    <table id="95" parent="1" name="Ur_OrderTicket"/>
+    <table id="96" parent="1" name="Ur_Photo"/>
+    <table id="97" parent="1" name="Ur_PicAdvertising"/>
+    <table id="98" parent="1" name="Ur_Prize"/>
+    <table id="99" parent="1" name="Ur_PushRecord"/>
+    <table id="100" parent="1" name="Ur_PushUserRecord"/>
+    <table id="101" parent="1" name="Ur_QuizOrder"/>
+    <table id="102" parent="1" name="Ur_Race"/>
+    <table id="103" parent="1" name="Ur_RaceSubject"/>
+    <table id="104" parent="1" name="Ur_Recharge"/>
+    <table id="105" parent="1" name="Ur_ScoreRace"/>
+    <table id="106" parent="1" name="Ur_ScoreRaceDetail"/>
+    <table id="107" parent="1" name="Ur_ScoreRecord"/>
+    <table id="108" parent="1" name="Ur_ScoreStrategy"/>
+    <table id="109" parent="1" name="Ur_Sign"/>
+    <table id="110" parent="1" name="Ur_StoreProductSet"/>
+    <table id="111" parent="1" name="Ur_Team"/>
+    <table id="112" parent="1" name="Ur_TeamMember"/>
+    <table id="113" parent="1" name="Ur_TicketShare"/>
+    <table id="114" parent="1" name="Ur_TicketTake"/>
+    <table id="115" parent="1" name="Ur_TopicRace"/>
+    <table id="116" parent="1" name="Ur_TopicRaceDetail"/>
+    <table id="117" parent="1" name="Ur_Track"/>
+    <table id="118" parent="1" name="Ur_UserInfo"/>
+    <table id="119" parent="1" name="Ur_Video"/>
+    <table id="120" parent="1" name="Ur_VideoShow"/>
+    <table id="121" parent="1" name="Ur_Viwepager"/>
+    <table id="122" parent="1" name="Ur_Wxscanqrcode"/>
+    <table id="123" parent="1" name="YZ_Detail"/>
+    <table id="124" parent="1" name="YZ_Netbar"/>
+    <table id="125" parent="1" name="YZ_Record"/>
+    <table id="126" parent="1" name="YZ_ScoreRecord"/>
+    <table id="127" parent="1" name="YZ_Team"/>
+    <table id="128" parent="1" name="YZ_TeamMember"/>
+    <table id="129" parent="1" name="hibernate_sequences"/>
+    <table id="130" parent="1" name="relation_ftg_module_resource"/>
+    <table id="131" parent="1" name="relation_ftg_role_module"/>
+    <table id="132" parent="1" name="relation_ftg_team_netbar"/>
+    <table id="133" parent="1" name="relation_ftg_user_role"/>
+    <table id="134" parent="1" name="relation_module_resource"/>
+    <table id="135" parent="1" name="relation_role_module"/>
+    <table id="136" parent="1" name="relation_user_role"/>
+    <table id="137" parent="1" name="tempRace"/>
+    <table id="138" parent="1" name="tempTables"/>
+    <column id="139" parent="31" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="140" parent="31" name="level">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="141" parent="31" name="timeout">
+      <data-type>mediumtext|0</data-type>
+    </column>
+    <column id="142" parent="31" name="msg">
+      <data-type>text|0</data-type>
+    </column>
+    <column id="143" parent="31" name="insertTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="144" parent="32" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="145" parent="32" name="androidLink">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="146" parent="32" name="description">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="147" parent="32" name="icon">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="148" parent="32" name="iosLink">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="149" parent="32" name="newsTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="150" parent="32" name="params">
+      <data-type>text|0</data-type>
+    </column>
+    <column id="151" parent="32" name="prorder">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="152" parent="32" name="title">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="153" parent="32" name="type">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="154" parent="32" name="version">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="155" parent="32" name="cio">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="156" parent="32" name="androidparams">
+      <data-type>varchar(4500)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="157" parent="32" name="iosparams">
+      <data-type>varchar(4500)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="158" parent="33" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="159" parent="33" name="clickNum">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="160" parent="33" name="hotName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="161" parent="33" name="hotType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="162" parent="34" name="gameId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="163" parent="34" name="androidLink">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="164" parent="34" name="description">
+      <data-type>varchar(450)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="165" parent="34" name="downloadCount">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="166" parent="34" name="gameImg">
+      <data-type>varchar(2400)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="167" parent="34" name="gameName">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="168" parent="34" name="icon">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="169" parent="34" name="iosLink">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="170" parent="34" name="status">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="171" parent="34" name="weight">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="172" parent="34" name="categoryId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="173" parent="34" name="wxLink">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <index id="174" parent="34" name="idx_Issue_Game">
+      <columns>categoryId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="175" parent="35" name="categoryId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="176" parent="35" name="categoryImg">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="177" parent="35" name="categoryName">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="178" parent="35" name="status">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="179" parent="35" name="weight">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="180" parent="36" name="logId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="181" parent="36" name="createTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="182" parent="36" name="deadline">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="183" parent="36" name="emailType">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="184" parent="36" name="keyword">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="185" parent="36" name="receiver">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="186" parent="36" name="templateName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <index id="187" parent="36" name="UK_myhn6lsrhto634j099rkk17lc">
+      <columns>keyword</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <column id="188" parent="37" name="logId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="189" parent="37" name="createTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="190" parent="37" name="deadline">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="191" parent="37" name="emailType">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="192" parent="37" name="keyword">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="193" parent="37" name="receiver">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="194" parent="37" name="templateName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="195" parent="38" name="logId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="196" parent="38" name="description">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="197" parent="38" name="loginCity">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="198" parent="38" name="loginIp">
+      <mandatory>1</mandatory>
+      <data-type>varchar(40)|0</data-type>
+    </column>
+    <column id="199" parent="38" name="loginName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="200" parent="38" name="loginPass">
+      <mandatory>1</mandatory>
+      <data-type>varchar(32)|0</data-type>
+    </column>
+    <column id="201" parent="38" name="loginProvince">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="202" parent="38" name="loginState">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="203" parent="38" name="loginTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="204" parent="38" name="logoutTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="205" parent="38" name="logoutType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="206" parent="38" name="netType">
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <column id="207" parent="38" name="sessionId">
+      <mandatory>1</mandatory>
+      <data-type>varchar(32)|0</data-type>
+    </column>
+    <column id="208" parent="38" name="successful">
+      <mandatory>1</mandatory>
+      <data-type>char(1)|0</data-type>
+    </column>
+    <column id="209" parent="39" name="logId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="210" parent="39" name="description">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="211" parent="39" name="loginCity">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="212" parent="39" name="loginIp">
+      <mandatory>1</mandatory>
+      <data-type>varchar(40)|0</data-type>
+    </column>
+    <column id="213" parent="39" name="loginName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="214" parent="39" name="loginPass">
+      <mandatory>1</mandatory>
+      <data-type>varchar(32)|0</data-type>
+    </column>
+    <column id="215" parent="39" name="loginProvince">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="216" parent="39" name="loginState">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="217" parent="39" name="loginTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="218" parent="39" name="logoutTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="219" parent="39" name="logoutType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="220" parent="39" name="netType">
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <column id="221" parent="39" name="sessionId">
+      <mandatory>1</mandatory>
+      <data-type>varchar(32)|0</data-type>
+    </column>
+    <column id="222" parent="39" name="successful">
+      <mandatory>1</mandatory>
+      <data-type>char(1)|0</data-type>
+    </column>
+    <column id="223" parent="40" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="224" parent="40" name="detail">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="225" parent="40" name="ipAddr">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="226" parent="40" name="type">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="227" parent="40" name="phone">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="228" parent="40" name="logTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="229" parent="41" name="actid">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="230" parent="41" name="actiContext">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="231" parent="41" name="actiTitle">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="232" parent="41" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="233" parent="41" name="endTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="234" parent="41" name="netBarId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="235" parent="41" name="netBarName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="236" parent="41" name="startTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="237" parent="42" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="238" parent="42" name="addTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="239" parent="42" name="endTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="240" parent="42" name="isonlyThisNet">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="241" parent="42" name="maxSum">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="242" parent="42" name="netBarId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="243" parent="42" name="netBarName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="244" parent="42" name="quantity">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="245" parent="42" name="startTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="246" parent="42" name="ticketTypeId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="247" parent="42" name="usergetCount">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <index id="248" parent="42" name="FK_aub5f2jvmgw7aes9n48d203c5">
+      <columns>ticketTypeId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="249" parent="43" name="playid">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="250" parent="43" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="251" parent="43" name="endTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="252" parent="43" name="isonlyThisNet">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="253" parent="43" name="netBarId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="254" parent="43" name="netBarName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="255" parent="43" name="playContext">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="256" parent="43" name="playPrize">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="257" parent="43" name="playTitle">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="258" parent="43" name="startTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="259" parent="44" name="PRId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="260" parent="44" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="261" parent="44" name="isPraise">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="262" parent="44" name="joinTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="263" parent="44" name="userAccount">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="264" parent="44" name="playid">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="265" parent="44" name="FK_96u0qyb6njl3w0bdu1j938t0g">
+      <columns>playid</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="266" parent="45" name="SRId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="267" parent="45" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="268" parent="45" name="aplayPrize">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="269" parent="45" name="sendTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="270" parent="45" name="userAccount">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="271" parent="45" name="playid">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="272" parent="45" name="FK_8thh4a021vsafpjbhpwwdhnl4">
+      <columns>playid</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="273" parent="46" name="GRId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="274" parent="46" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="275" parent="46" name="gainTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="276" parent="46" name="useTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="277" parent="46" name="userAccount">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="278" parent="46" name="ticketid">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="279" parent="46" name="id">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="280" parent="46" name="FK_7o84vvs1ju0843g11g7xu1e0h">
+      <columns>id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="281" parent="46" name="FK_9swbg6bnjpjeb3ndjrrkyor74">
+      <columns>ticketid</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="282" parent="47" name="ticketTypeId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="283" parent="47" name="consumeReq">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="284" parent="47" name="netBarId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="285" parent="47" name="presentAmount">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="286" parent="47" name="addTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="287" parent="48" name="cid">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="288" parent="48" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="289" parent="48" name="domainId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="290" parent="48" name="netbarAddress">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="291" parent="48" name="netbarDistance">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="292" parent="48" name="netbarId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="293" parent="48" name="netbarMaxPrice">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="294" parent="48" name="netbarMinPrice">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="295" parent="48" name="netbarName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="296" parent="48" name="netbarPicUrl">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="297" parent="48" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="298" parent="48" name="queryType">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="299" parent="49" name="aid">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="300" parent="49" name="albumid">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="301" parent="49" name="behot_time">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="302" parent="49" name="ccid">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="303" parent="49" name="cid">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="304" parent="49" name="cname">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="305" parent="49" name="commentTotal">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="306" parent="49" name="desc2">
+      <data-type>longtext|0</data-type>
+    </column>
+    <column id="307" parent="49" name="detailAdType">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="308" parent="49" name="display_type">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="309" parent="49" name="display_url">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="310" parent="49" name="flagid">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="311" parent="49" name="has_image">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="312" parent="49" name="has_video">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="313" parent="49" name="ju_type">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="314" parent="49" name="praisesum">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="315" parent="49" name="publish_time">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="316" parent="49" name="reads2">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="317" parent="49" name="s_desc">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="318" parent="49" name="share_url">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="319" parent="49" name="sharesum">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="320" parent="49" name="source2">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="321" parent="49" name="source_url">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="322" parent="49" name="title">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="323" parent="49" name="treadsum">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="324" parent="50" name="imId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="325" parent="50" name="imageUrl">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="326" parent="50" name="publish_time">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="327" parent="50" name="aid">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="328" parent="50" name="FK_1itd6q6v4e5kwi4s2s9nop59e">
+      <columns>aid</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="329" parent="51" name="oid">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="330" parent="51" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="331" parent="51" name="descripe">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="332" parent="51" name="dr">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="333" parent="51" name="equtype">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="334" parent="51" name="loginTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="335" parent="51" name="opertype">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="336" parent="51" name="userAccount">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="337" parent="51" name="action">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <index id="338" parent="51" name="index_operatelog_time_type">
+      <columns>loginTime
+equtype</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="339" parent="52" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="340" parent="52" name="notifyUrl">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="341" parent="52" name="orderNum">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="342" parent="52" name="redirectUrl">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="343" parent="53" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="344" parent="53" name="description">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="345" parent="53" name="formattype">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="346" parent="53" name="imgurl">
+      <data-type>varchar(450)|0</data-type>
+    </column>
+    <column id="347" parent="53" name="jsscript">
+      <data-type>varchar(4500)|0</data-type>
+    </column>
+    <column id="348" parent="53" name="localImg">
+      <data-type>varchar(450)|0</data-type>
+    </column>
+    <column id="349" parent="53" name="name">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="350" parent="53" name="type">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="351" parent="53" name="url">
+      <data-type>varchar(450)|0</data-type>
+    </column>
+    <column id="352" parent="54" name="popid">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="353" parent="54" name="pid">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="354" parent="54" name="cityName">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="355" parent="54" name="counts">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="356" parent="54" name="type">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="357" parent="54" name="types">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="358" parent="55" name="moduleId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="359" parent="55" name="description">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="360" parent="55" name="enabled">
+      <mandatory>1</mandatory>
+      <data-type>char(1)|0</data-type>
+    </column>
+    <column id="361" parent="55" name="icon">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="362" parent="55" name="moduleName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="363" parent="55" name="priority">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="364" parent="56" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="365" parent="56" name="preName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="366" parent="56" name="preValue">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="367" parent="57" name="resourceId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="368" parent="57" name="description">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="369" parent="57" name="enabled">
+      <mandatory>1</mandatory>
+      <data-type>char(1)|0</data-type>
+    </column>
+    <column id="370" parent="57" name="priority">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="371" parent="57" name="resourceName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="372" parent="57" name="resourceUri">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="373" parent="58" name="SYS_Ftg_Resource_resourceId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="374" parent="58" name="modules_moduleId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="375" parent="58" name="FK_sr6uvr40rgeo1bg3de7oopsd1">
+      <columns>modules_moduleId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="376" parent="59" name="roleId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="377" parent="59" name="description">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="378" parent="59" name="roleName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="379" parent="60" name="userId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="380" parent="60" name="createTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="381" parent="60" name="email">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="382" parent="60" name="enabled">
+      <mandatory>1</mandatory>
+      <data-type>char(1)|0</data-type>
+    </column>
+    <column id="383" parent="60" name="headImg">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="384" parent="60" name="lastLoginTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="385" parent="60" name="loginName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="386" parent="60" name="loginPass">
+      <mandatory>1</mandatory>
+      <data-type>varchar(32)|0</data-type>
+    </column>
+    <column id="387" parent="60" name="mobile">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="388" parent="60" name="realName">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="389" parent="60" name="sex">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="390" parent="61" name="moduleId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="391" parent="61" name="description">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="392" parent="61" name="enabled">
+      <mandatory>1</mandatory>
+      <data-type>char(1)|0</data-type>
+    </column>
+    <column id="393" parent="61" name="icon">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="394" parent="61" name="moduleName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="395" parent="61" name="priority">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="396" parent="62" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="397" parent="62" name="preName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="398" parent="62" name="preValue">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="399" parent="62" name="needCache">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="400" parent="63" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="401" parent="63" name="preName">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="402" parent="63" name="preValue">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="403" parent="64" name="resourceId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="404" parent="64" name="description">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="405" parent="64" name="enabled">
+      <mandatory>1</mandatory>
+      <data-type>char(1)|0</data-type>
+    </column>
+    <column id="406" parent="64" name="priority">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="407" parent="64" name="resourceName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="408" parent="64" name="resourceUri">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="409" parent="65" name="SYS_Resource_resourceId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="410" parent="65" name="modules_moduleId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="411" parent="65" name="FK_4jelt164fe9nre2t0hqc779y4">
+      <columns>modules_moduleId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="412" parent="66" name="roleId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="413" parent="66" name="description">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="414" parent="66" name="roleName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="415" parent="67" name="userId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="416" parent="67" name="createTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="417" parent="67" name="email">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="418" parent="67" name="enabled">
+      <mandatory>1</mandatory>
+      <data-type>char(1)|0</data-type>
+    </column>
+    <column id="419" parent="67" name="headImg">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="420" parent="67" name="loginName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="421" parent="67" name="loginPass">
+      <mandatory>1</mandatory>
+      <data-type>varchar(32)|0</data-type>
+    </column>
+    <column id="422" parent="67" name="mobile">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="423" parent="67" name="realName">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="424" parent="67" name="sex">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="425" parent="67" name="lastLoginTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <index id="426" parent="67" name="UK_hp9nybynaj4uhl0r76j50ovxx">
+      <columns>loginName</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <column id="427" parent="68" name="tableName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="428" parent="68" name="tableValue">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="429" parent="69" name="cid">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="430" parent="69" name="angle">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="431" parent="69" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="432" parent="69" name="macname">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="433" parent="69" name="netbarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="434" parent="69" name="region">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="435" parent="69" name="regionId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="436" parent="69" name="x">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="437" parent="69" name="y">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <index id="438" parent="69" name="unique_macname_regionId_netbar_domain">
+      <columns>macname
+regionId
+netbarId
+domainId</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <column id="439" parent="70" name="rid">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="440" parent="70" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="441" parent="70" name="netbarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="442" parent="70" name="price">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="443" parent="70" name="regionId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="444" parent="70" name="regionName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="445" parent="70" name="x">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="446" parent="70" name="y">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <index id="447" parent="70" name="unique_regionId_netbar_domain">
+      <columns>regionId
+netbarId
+domainId</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <column id="448" parent="71" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="449" parent="71" name="tranDate">
+      <mandatory>1</mandatory>
+      <data-type>date|0</data-type>
+    </column>
+    <column id="450" parent="71" name="totalLogin">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="451" parent="71" name="totalRegister">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="452" parent="71" name="totalQuiz">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="453" parent="71" name="totalConvert">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="454" parent="71" name="totalQuizScore">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="455" parent="71" name="totalScore">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="456" parent="71" name="totalUseScore">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="457" parent="71" name="avgOrder">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="458" parent="71" name="totalOrder">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="459" parent="71" name="mobileGuessCount">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="460" parent="71" name="mobileLoginCount">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="461" parent="71" name="wapGuessCount">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="462" parent="71" name="wapLoginCount">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="463" parent="71" name="webGuessCount">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="464" parent="71" name="webLoginCount">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <index id="465" parent="71" name="St_UserStatistics_tranDate_index">
+      <columns>tranDate</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="466" parent="72" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="467" parent="72" name="data">
+      <mandatory>1</mandatory>
+      <data-type>varchar(455)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="468" parent="72" name="idPara">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="469" parent="72" name="newsTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="470" parent="72" name="notifyUrl">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="471" parent="72" name="para">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="472" parent="72" name="type">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="473" parent="73" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="474" parent="73" name="appid">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="475" parent="73" name="secret">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="476" parent="73" name="createTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="477" parent="73" name="lastChangeTime">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="478" parent="73" name="email">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="479" parent="73" name="logo">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="480" parent="73" name="phone">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="481" parent="73" name="qq">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="482" parent="73" name="telephone">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="483" parent="73" name="status">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="484" parent="74" name="addressId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="485" parent="74" name="QQnum">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="486" parent="74" name="address">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="487" parent="74" name="cellPhone">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="488" parent="74" name="city">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="489" parent="74" name="isdefault">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="490" parent="74" name="postNum">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="491" parent="74" name="province">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="492" parent="74" name="recivePeson">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="493" parent="74" name="tel">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="494" parent="74" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="495" parent="74" name="FK_3t4fk1mu73vok64q10w7rgqbl">
+      <columns>userId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="496" parent="75" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="497" parent="75" name="allCount">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="498" parent="75" name="calculateType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="499" parent="75" name="odds">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="500" parent="75" name="playTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="501" parent="75" name="raceImg">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="502" parent="75" name="subjectTilte">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="503" parent="75" name="totallimitInvest">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="504" parent="75" name="userInvest">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="505" parent="75" name="gameId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="506" parent="75" name="FK_f52okre41tdmrco7iblsjostn">
+      <columns>gameId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="507" parent="76" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="508" parent="76" name="allCount">
+      <data-type>bigint(20)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="509" parent="76" name="calculateType">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="510" parent="76" name="odds">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="511" parent="76" name="playTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="512" parent="76" name="raceImg">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="513" parent="76" name="subjectTilte">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="514" parent="76" name="totallimitInvest">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="515" parent="76" name="userInvest">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="516" parent="76" name="gameId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="517" parent="77" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="518" parent="77" name="playTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="519" parent="77" name="statisticRemark">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="520" parent="77" name="statisticVedio">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="521" parent="77" name="ateamId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="522" parent="77" name="bteamId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="523" parent="77" name="urAllinRaceId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="524" parent="77" name="winTeam">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="525" parent="77" name="FK_2jbjhdt6yn1xx99ckya9gsdlj">
+      <columns>bteamId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="526" parent="77" name="FK_3t318ns8faur8x85rp5y2i7xp">
+      <columns>ateamId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="527" parent="77" name="FK_7mx1g2bj0blijiwdpsig973uy">
+      <columns>urAllinRaceId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="528" parent="78" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="529" parent="78" name="playTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="530" parent="78" name="statisticRemark">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="531" parent="78" name="statisticVedio">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="532" parent="78" name="ateamId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="533" parent="78" name="bteamId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="534" parent="78" name="urAllinRaceId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="535" parent="78" name="winTeam">
+      <data-type>bigint(20)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <index id="536" parent="78" name="idx_Ur_AllinRaceDetail1_urAllinRaceId">
+      <columns>urAllinRaceId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="537" parent="79" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="538" parent="79" name="appDate">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="539" parent="79" name="appName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="540" parent="79" name="appToken">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="541" parent="79" name="userId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="542" parent="79" name="FK_m1jgf21469s957ohs78vkvu7l">
+      <columns>userId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="543" parent="80" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="544" parent="80" name="addTimes">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="545" parent="80" name="address">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="546" parent="80" name="domainID">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="547" parent="80" name="memberLevel">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="548" parent="80" name="memberNo">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="549" parent="80" name="netAccount">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="550" parent="80" name="netBarID">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="551" parent="80" name="netBarName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="552" parent="80" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="553" parent="80" name="accountPwd">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="554" parent="80" name="bindFlag">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <index id="555" parent="80" name="FK_106q3ole2l8je6t8hfcjjwplx">
+      <columns>userId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="556" parent="80" name="index_assocation_addtime">
+      <columns>addTimes</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="557" parent="80" name="index_assocation_netbarinfo">
+      <columns>memberNo
+netBarID
+domainID</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="558" parent="80" name="index_association_member">
+      <columns>memberNo
+netBarID
+domainID</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="559" parent="81" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="560" parent="81" name="changeTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="561" parent="81" name="giftID">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="562" parent="81" name="phone">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="563" parent="81" name="sendAddr">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="564" parent="81" name="sendStau">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="565" parent="81" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="566" parent="81" name="recivePeName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="567" parent="81" name="QQnum">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="568" parent="81" name="addressId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="569" parent="81" name="convertSum">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="570" parent="81" name="giftName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="571" parent="81" name="scorePay">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <index id="572" parent="81" name="FK_5lmv0pxedx0bif18fobecg1tc">
+      <columns>giftID</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="573" parent="81" name="FK_b7lybtntknockf4s7puts5nv2">
+      <columns>userId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="574" parent="81" name="FK_ehkv4slki27763jsjh49h5anm">
+      <columns>addressId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="575" parent="82" name="recordId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="576" parent="82" name="cardId">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="577" parent="82" name="result">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="578" parent="82" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="579" parent="82" name="FK_1rlmykq8j5jkqdidba8v1ccx4">
+      <columns>userId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="580" parent="83" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="581" parent="83" name="calculateType">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="582" parent="83" name="countAll">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="583" parent="83" name="finalGuessType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="584" parent="83" name="finalResultType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="585" parent="83" name="firstOdds">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="586" parent="83" name="playTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="587" parent="83" name="raceImg">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="588" parent="83" name="raceTitle">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="589" parent="83" name="secondOdds">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="590" parent="83" name="statisticRemark">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="591" parent="83" name="statisticVedio">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="592" parent="83" name="totallimitInvest">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="593" parent="83" name="userInvest">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="594" parent="83" name="weedout">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="595" parent="83" name="gameId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="596" parent="83" name="teamId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="597" parent="83" name="FK_35thlxe7nhxy3i0bge8l35r7t">
+      <columns>teamId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="598" parent="83" name="FK_sdh326lvc61xjk4c7oe6x3x0f">
+      <columns>gameId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="599" parent="84" name="FRMainId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="600" parent="84" name="raceTitle">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="601" parent="84" name="endTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="602" parent="85" name="gameId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="603" parent="85" name="gameName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="604" parent="85" name="icon">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="605" parent="85" name="status">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="606" parent="85" name="gameOrder">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="607" parent="85" name="gameOrder1">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="608" parent="86" name="gameId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="609" parent="86" name="category">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="610" parent="86" name="description">
+      <data-type>varchar(450)|0</data-type>
+    </column>
+    <column id="611" parent="86" name="downloadNum">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="612" parent="86" name="downloadUrl">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="613" parent="86" name="gameImg">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="614" parent="86" name="gameName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="615" parent="86" name="gameOrder">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="616" parent="86" name="startTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="617" parent="87" name="giftId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="618" parent="87" name="changeCount">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="619" parent="87" name="endTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="620" parent="87" name="giftCount">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="621" parent="87" name="giftImg">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="622" parent="87" name="giftName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="623" parent="87" name="giftType">
+      <mandatory>1</mandatory>
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <column id="624" parent="87" name="score">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="625" parent="87" name="startTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="626" parent="87" name="descrp">
+      <comment>礼品详情</comment>
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="627" parent="88" name="gameId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="628" parent="88" name="category">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="629" parent="88" name="description">
+      <data-type>varchar(450)|0</data-type>
+    </column>
+    <column id="630" parent="88" name="downloadNum">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="631" parent="88" name="downloadUrl">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="632" parent="88" name="gameImg">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="633" parent="88" name="gameName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="634" parent="88" name="gameOrder">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="635" parent="88" name="startTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="636" parent="89" name="lotteryId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="637" parent="89" name="issend">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="638" parent="89" name="time">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="639" parent="89" name="type">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="640" parent="89" name="prizeId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="641" parent="89" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="642" parent="89" name="iswin">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <index id="643" parent="89" name="FK_8qr2h42e3wtfyr4mqjsgd7q5m">
+      <columns>userId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="644" parent="89" name="FK_tggisnd09v1r1v19c4ovj5ris">
+      <columns>prizeId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="645" parent="90" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="646" parent="90" name="domainID">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="647" parent="90" name="latitude">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="648" parent="90" name="longitude">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="649" parent="90" name="netBarID">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="650" parent="91" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="651" parent="91" name="openId">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="652" parent="91" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="653" parent="91" name="index_netcardrecord_userId">
+      <columns>userId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="654" parent="92" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="655" parent="92" name="betNum">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="656" parent="92" name="orderTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="657" parent="92" name="perOdds">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="658" parent="92" name="quizOrderType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="659" parent="92" name="sceneId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="660" parent="92" name="score">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="661" parent="92" name="status">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="662" parent="92" name="teamId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="663" parent="92" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="664" parent="92" name="gameId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="665" parent="92" name="way">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="666" parent="92" name="topicChooes">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="667" parent="92" name="topicChooes2">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="668" parent="92" name="FK_75a0nqxrru94uushjmuadis0w">
+      <columns>gameId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="669" parent="92" name="FK_byam7a1egul5js6oq0jsuv6n2">
+      <columns>userId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="670" parent="92" name="FK_siircuq5lu8sfx6he7smn13jq">
+      <columns>teamId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="671" parent="92" name="IDX_Ur_NewQuizOrder_sceneId">
+      <columns>sceneId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="672" parent="93" name="newsId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="673" parent="93" name="newsImg">
+      <data-type>varchar(4501)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="674" parent="93" name="newsText">
+      <mandatory>1</mandatory>
+      <data-type>longtext|0</data-type>
+    </column>
+    <column id="675" parent="93" name="newsTitle">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="676" parent="93" name="newsDesc">
+      <mandatory>1</mandatory>
+      <data-type>varchar(455)|0</data-type>
+    </column>
+    <column id="677" parent="93" name="keyword">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="678" parent="93" name="newsTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="679" parent="93" name="type">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="680" parent="93" name="author">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="681" parent="93" name="origin">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="682" parent="93" name="newsUrl">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="683" parent="93" name="gameId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="684" parent="93" name="platformType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="685" parent="93" name="role">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="686" parent="93" name="role1">
+      <data-type>varchar(45)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <index id="687" parent="93" name="FK_io3ojvy6hkstb7mrs81hsxwjg">
+      <columns>gameId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="688" parent="94" name="orderId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="689" parent="94" name="amount">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="690" parent="94" name="domainID">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="691" parent="94" name="netBarID">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="692" parent="94" name="orderDesc">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="693" parent="94" name="orderTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="694" parent="94" name="orderType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="695" parent="94" name="payTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="696" parent="94" name="toAccount">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="697" parent="94" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="698" parent="94" name="orderNum">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="699" parent="94" name="payType">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="700" parent="94" name="present">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="701" parent="94" name="account">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="702" parent="94" name="classId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="703" parent="94" name="memberId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="704" parent="94" name="toClassId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="705" parent="94" name="toMemberId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="706" parent="94" name="orderStatus">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="707" parent="94" name="accreditType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="708" parent="94" name="tradeResult">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="709" parent="94" name="transationId">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="710" parent="94" name="ddnorderId">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="711" parent="94" name="partnerOrderId">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="712" parent="94" name="transResult">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="713" parent="94" name="netBarName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="714" parent="94" name="creditStatus">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="715" parent="94" name="isNewPay">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="716" parent="94" name="origianlAmount">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="717" parent="94" name="rate">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <index id="718" parent="94" name="idx_netbar_order">
+      <columns>netBarID</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="719" parent="94" name="idx_ordertime_paid">
+      <columns>userId
+orderTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="720" parent="94" name="idx_order_orderTime">
+      <columns>orderTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="721" parent="95" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="722" parent="95" name="GRId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="723" parent="95" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="724" parent="95" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="725" parent="95" name="orderStatus">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="726" parent="95" name="ticketId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="727" parent="95" name="ticketTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="728" parent="95" name="useTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="729" parent="95" name="orderId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="730" parent="95" name="presentAmount">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="731" parent="95" name="type">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <index id="732" parent="95" name="FK_fmogbp999r0cqrkcta0516ux7">
+      <columns>orderId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="733" parent="96" name="photoId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="734" parent="96" name="photoImg">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="735" parent="96" name="title">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="736" parent="96" name="type">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="737" parent="96" name="photoUrl">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="738" parent="97" name="picId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="739" parent="97" name="isUse">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;1&apos;</default-expression>
+    </column>
+    <column id="740" parent="97" name="other1">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="741" parent="97" name="other2">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="742" parent="97" name="picContext">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="743" parent="97" name="picImg">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="744" parent="97" name="picOrder">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="745" parent="97" name="picSrc">
+      <mandatory>1</mandatory>
+      <data-type>varchar(450)|0</data-type>
+    </column>
+    <column id="746" parent="97" name="picTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="747" parent="97" name="picTitle">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="748" parent="98" name="prizeId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="749" parent="98" name="isuse">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="750" parent="98" name="prizeImg">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="751" parent="98" name="prizeName">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="752" parent="98" name="rate">
+      <data-type>double|0</data-type>
+    </column>
+    <column id="753" parent="98" name="score">
+      <data-type>int(255)|0</data-type>
+    </column>
+    <column id="754" parent="98" name="time">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="755" parent="98" name="type">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="756" parent="98" name="thanks">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="757" parent="98" name="deadtime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="758" parent="99" name="pushRecordId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="759" parent="99" name="aid">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="760" parent="99" name="aidType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="761" parent="99" name="contents">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="762" parent="99" name="description">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="763" parent="99" name="messTitle">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="764" parent="99" name="operaTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="765" parent="99" name="pushObj">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="766" parent="100" name="pushUserRecordId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="767" parent="100" name="pushRecordId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="768" parent="100" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="769" parent="101" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="770" parent="101" name="betNum">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="771" parent="101" name="orderTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="772" parent="101" name="perOdds">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="773" parent="101" name="status">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="774" parent="101" name="sceneId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="775" parent="101" name="teamId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="776" parent="101" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="777" parent="101" name="gameId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="778" parent="101" name="FK_d3wy2lk1xoow5ii1eec99anro">
+      <columns>gameId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="779" parent="101" name="FK_f528hf3e267wp9x2gv410wta4">
+      <columns>teamId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="780" parent="101" name="FK_f8tgalvsw2rgrcf1eo9ax475s">
+      <columns>sceneId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="781" parent="101" name="FK_j2md4c92wef7j91xlw926cupi">
+      <columns>userId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="782" parent="102" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="783" parent="102" name="aLimitOrders">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="784" parent="102" name="aOdds">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="785" parent="102" name="aOrders">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="786" parent="102" name="aScore">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="787" parent="102" name="bLimitOrders">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="788" parent="102" name="bOdds">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="789" parent="102" name="bOrders">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="790" parent="102" name="bScore">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="791" parent="102" name="playTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="792" parent="102" name="totalInvest">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="793" parent="102" name="totallimitInvest">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="794" parent="102" name="userInvest">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="795" parent="102" name="teamAID">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="796" parent="102" name="teamBID">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="797" parent="102" name="autoOdds">
+      <mandatory>1</mandatory>
+      <data-type>char(1)|0</data-type>
+    </column>
+    <column id="798" parent="102" name="statisticRemark">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="799" parent="102" name="statisticVedio">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="800" parent="102" name="calculateType">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="801" parent="102" name="raceImg">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="802" parent="102" name="raceTitle">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="803" parent="102" name="countAll">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="804" parent="102" name="gameId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="805" parent="102" name="FK_1sl1wxk4qb9hd68d9e2bl7qam">
+      <columns>teamBID</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="806" parent="102" name="FK_3f6v6ntj6q3j1yrs5rwq5dkc7">
+      <columns>gameId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="807" parent="102" name="FK_n124l3lircjuxe3bjm4iway3u">
+      <columns>teamAID</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="808" parent="103" name="subjectId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="809" parent="103" name="subjectName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="810" parent="103" name="subjectOrder">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="811" parent="103" name="scheduleType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="812" parent="104" name="Id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="813" parent="104" name="rechaChanne">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="814" parent="104" name="rechaMoney">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="815" parent="104" name="rechaTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="816" parent="104" name="rechaType">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="817" parent="104" name="status">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="818" parent="104" name="toAcctTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="819" parent="104" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="820" parent="104" name="FK_98bpwbtsot8agabj9iu90ken2">
+      <columns>userId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="821" parent="105" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="822" parent="105" name="aScore">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="823" parent="105" name="bScore">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="824" parent="105" name="calculateType">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="825" parent="105" name="playTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="826" parent="105" name="raceImg">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="827" parent="105" name="raceRule">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="828" parent="105" name="raceTitle">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="829" parent="105" name="statisticRemark">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="830" parent="105" name="statisticVedio">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="831" parent="105" name="teamAID">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="832" parent="105" name="teamBID">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="833" parent="105" name="autoOdds">
+      <data-type>char(1)|0</data-type>
+    </column>
+    <column id="834" parent="105" name="countAll">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="835" parent="105" name="aOdds">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="836" parent="105" name="bOdds">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="837" parent="105" name="userInvest">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="838" parent="105" name="gameId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="839" parent="105" name="raceSchedule">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="840" parent="105" name="subjectId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="841" parent="105" name="forecast">
+      <data-type>varchar(4000)|0</data-type>
+    </column>
+    <index id="842" parent="105" name="FK_3hrg8lin3k26fcry5470op4ya">
+      <columns>teamAID</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="843" parent="105" name="FK_jmgcipvkiylm4ur7xtk489k72">
+      <columns>teamBID</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="844" parent="105" name="FK_jmsjcvxbn6hrsm07cwb5hoo3y">
+      <columns>gameId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="845" parent="105" name="FK_oh9rcxb8qq5mujq6adg2ym6cc">
+      <columns>subjectId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="846" parent="106" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="847" parent="106" name="perOdds">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="848" parent="106" name="raceName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="849" parent="106" name="totalInvest">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="850" parent="106" name="userInvest">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="851" parent="106" name="raceId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="852" parent="106" name="teamId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="853" parent="106" name="FK_ffru4emvd6iakxxbbavjy9jvb">
+      <columns>raceId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="854" parent="106" name="FK_m2nuaqd9tt6vxp96kdfr2f5jg">
+      <columns>teamId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="855" parent="107" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="856" parent="107" name="operaStatus">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="857" parent="107" name="operaTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="858" parent="107" name="operaType">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="859" parent="107" name="score">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="860" parent="107" name="scoreId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="861" parent="107" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="862" parent="107" name="FK_3bcfnmjeu4aswu7o16ismxys3">
+      <columns>userId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="863" parent="107" name="FK_myrxwpqbh8y2g6tu348skeaxw">
+      <columns>scoreId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="864" parent="108" name="scStrategyId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="865" parent="108" name="scNum">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="866" parent="108" name="scStrategyName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="867" parent="109" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="868" parent="109" name="count">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="869" parent="109" name="lastDate">
+      <mandatory>1</mandatory>
+      <data-type>date|0</data-type>
+    </column>
+    <column id="870" parent="109" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="871" parent="109" name="userId">
+      <columns>userId</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <column id="872" parent="110" name="spsId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="873" parent="110" name="isuse">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="874" parent="110" name="productId">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="875" parent="110" name="saveTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="876" parent="110" name="storeId">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="877" parent="110" name="type">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="878" parent="110" name="ddnDesIv">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="879" parent="110" name="ddnDesKey">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="880" parent="111" name="teamId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="881" parent="111" name="teamImg">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="882" parent="111" name="teamName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="883" parent="111" name="clubInfo">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="884" parent="111" name="honorInfo">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="885" parent="111" name="gameId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="886" parent="111" name="teamType">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <index id="887" parent="111" name="FK_1kg3g841drlq7ki30ra7ls3g6">
+      <columns>gameId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="888" parent="112" name="memberId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="889" parent="112" name="gameId">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="890" parent="112" name="perHonnour">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="891" parent="112" name="playerImg">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="892" parent="112" name="playerName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="893" parent="112" name="teamId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="894" parent="112" name="wayName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <index id="895" parent="112" name="FK_e6y0p3yxw8okmdw01atr2pkw5">
+      <columns>teamId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="896" parent="113" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="897" parent="113" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="898" parent="113" name="beginTime">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="899" parent="113" name="card_id">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="900" parent="113" name="code">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="901" parent="113" name="comments">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="902" parent="113" name="endTime">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="903" parent="113" name="icon">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="904" parent="113" name="nickName">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="905" parent="113" name="phone">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="906" parent="113" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="907" parent="113" name="title">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="908" parent="113" name="least_cost">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="909" parent="113" name="reduce_cost">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <index id="910" parent="113" name="cardId_userId_phone">
+      <columns>card_id
+userId
+phone</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="911" parent="114" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="912" parent="114" name="takeTime">
+      <mandatory>1</mandatory>
+      <data-type>date|0</data-type>
+    </column>
+    <column id="913" parent="114" name="ticketType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="914" parent="114" name="userId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="915" parent="115" name="topicId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="916" parent="115" name="calculateType">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="917" parent="115" name="createTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="918" parent="115" name="endTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="919" parent="115" name="startTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="920" parent="115" name="topicDetailId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="921" parent="115" name="topicTitle">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="922" parent="115" name="gameId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="923" parent="115" name="statisticRemark">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="924" parent="115" name="statisticVedio">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="925" parent="115" name="foreCast">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <index id="926" parent="115" name="FK_k23sxvul6pl0xi3xqd3sxtpbd">
+      <columns>gameId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="927" parent="116" name="topicDetailId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="928" parent="116" name="Odds">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="929" parent="116" name="topicContent">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="930" parent="116" name="topicImg">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="931" parent="116" name="userInvest">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="932" parent="116" name="topicId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="933" parent="116" name="isOut">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="934" parent="116" name="createTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="935" parent="116" name="totalInvest">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <index id="936" parent="116" name="FK_draknjchaayvf14t3n3jrlawb">
+      <columns>topicId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="937" parent="117" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="938" parent="117" name="address">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="939" parent="117" name="ip">
+      <mandatory>1</mandatory>
+      <data-type>varchar(40)|0</data-type>
+    </column>
+    <column id="940" parent="117" name="loginWay">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="941" parent="117" name="userDate">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="942" parent="117" name="ymdays">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="943" parent="117" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="944" parent="117" name="FK_bkcixv8nmi505j7lob5wdnqwy">
+      <columns>userId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="945" parent="117" name="idx_track_userdate">
+      <columns>userDate</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="946" parent="117" name="ip">
+      <columns>ip
+loginWay
+userId
+ymdays</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <column id="947" parent="118" name="userId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="948" parent="118" name="account">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="949" parent="118" name="email">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="950" parent="118" name="icon">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="951" parent="118" name="idcard">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="952" parent="118" name="nickName">
+      <data-type>varchar(50)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="953" parent="118" name="openId">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="954" parent="118" name="phone">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="955" parent="118" name="qqId">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="956" parent="118" name="score">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="957" parent="118" name="userPwd">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="958" parent="118" name="birthday">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="959" parent="118" name="liveArea">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="960" parent="118" name="phone2">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="961" parent="118" name="postArea">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="962" parent="118" name="postNum">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="963" parent="118" name="realName">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="964" parent="118" name="sex">
+      <data-type>varchar(2)|0</data-type>
+    </column>
+    <column id="965" parent="118" name="zt">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="966" parent="118" name="mobileCodeNum">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="967" parent="118" name="regTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="968" parent="118" name="unionId">
+      <data-type>varchar(50)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="969" parent="118" name="userkey">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="970" parent="118" name="gameOpenId">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <index id="971" parent="118" name="idx_userinfo_account">
+      <columns>account</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="972" parent="118" name="idx_userinfo_email">
+      <columns>email</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="973" parent="118" name="idx_userinfo_phone">
+      <columns>phone</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="974" parent="118" name="index_name">
+      <columns>email</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="975" parent="118" name="index_name2">
+      <columns>account</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="976" parent="118" name="index_name3">
+      <columns>phone</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="977" parent="118" name="qqId">
+      <columns>qqId</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <index id="978" parent="118" name="UK_8fwc8bwq0v19s30fk9ufmg8nc">
+      <columns>account</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <index id="979" parent="118" name="UK_fo6y3lrije22pv24x48dbr9sa">
+      <columns>email</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <column id="980" parent="119" name="videoId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="981" parent="119" name="title">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="982" parent="119" name="type">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="983" parent="119" name="videoSrc">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="984" parent="119" name="videoImg">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="985" parent="119" name="gameId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="986" parent="119" name="FK_5m0aouuyftsba6c7qgvnqlxqi">
+      <columns>gameId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="987" parent="120" name="videoId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="988" parent="120" name="videoImg">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="989" parent="120" name="videoName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="990" parent="120" name="videoOrder">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="991" parent="120" name="videoSrc">
+      <mandatory>1</mandatory>
+      <data-type>longtext|0</data-type>
+    </column>
+    <column id="992" parent="120" name="videoTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="993" parent="121" name="photoId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="994" parent="121" name="photoImg">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="995" parent="121" name="photoName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="996" parent="121" name="photoOrder">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="997" parent="121" name="photoTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="998" parent="121" name="photoSrc">
+      <mandatory>1</mandatory>
+      <data-type>varchar(450)|0</data-type>
+    </column>
+    <column id="999" parent="121" name="type">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1000" parent="122" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="1001" parent="122" name="newTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="1002" parent="122" name="useTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="1003" parent="122" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1004" parent="122" name="status">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="1005" parent="122" name="operType">
+      <data-type>varchar(45)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="1006" parent="122" name="unionId">
+      <data-type>varchar(255)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <index id="1007" parent="122" name="FK_95tc0wn8homopjglfkw4uubjj">
+      <columns>userId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="1008" parent="123" name="yzId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1009" parent="123" name="endTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="1010" parent="123" name="gameResultImg">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="1011" parent="123" name="rule">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="1012" parent="123" name="sponsorTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="1013" parent="123" name="startTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="1014" parent="123" name="status">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="1015" parent="123" name="winTeam">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1016" parent="123" name="netbarId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1017" parent="123" name="gameId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1018" parent="123" name="teamAID">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1019" parent="123" name="teamBID">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="1020" parent="123" name="FK_2wry0xcoc3s0539lb7nsrirfl">
+      <columns>winTeam</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="1021" parent="123" name="FK_3p8mwodyp4wchmpjmg1o94ifa">
+      <columns>teamBID</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="1022" parent="123" name="FK_4x34ejgk8jxjlf4ghhfv5sodq">
+      <columns>gameId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="1023" parent="123" name="FK_cywcja61f9vbas9dbpbudx4rl">
+      <columns>netbarId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="1024" parent="123" name="FK_eymn6j9lirgsrmiei2lolhf2n">
+      <columns>teamAID</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="1025" parent="124" name="netbarId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1026" parent="124" name="account">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1027" parent="124" name="address">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1028" parent="124" name="email">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1029" parent="124" name="icon">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1030" parent="124" name="idcard">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1031" parent="124" name="name">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1032" parent="124" name="password">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1033" parent="124" name="phone">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1034" parent="124" name="regTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="1035" parent="124" name="zt">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1036" parent="125" name="recordId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1037" parent="125" name="arrive">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="1038" parent="125" name="netbarId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1039" parent="125" name="yzId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="1040" parent="125" name="FK_morllftk26oev8w2ha7u94xel">
+      <columns>yzId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="1041" parent="125" name="FK_pb2bn3afubcmdx6x1tdhbo26x">
+      <columns>netbarId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="1042" parent="126" name="scoreRecordId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1043" parent="126" name="operaStatus">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="1044" parent="126" name="operaTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="1045" parent="126" name="operaType">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="1046" parent="126" name="score">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="1047" parent="126" name="yzId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1048" parent="126" name="teamId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="1049" parent="126" name="FK_8n624jrpsj4iy6a44e75n0j1m">
+      <columns>yzId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="1050" parent="126" name="FK_dm9a246jiwqth0twholhajko2">
+      <columns>teamId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="1051" parent="127" name="teamId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1052" parent="127" name="avgLevel">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="1053" parent="127" name="clubInfo">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="1054" parent="127" name="declaration">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="1055" parent="127" name="honorInfo">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="1056" parent="127" name="phone">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="1057" parent="127" name="teamImg">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1058" parent="127" name="teamName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="1059" parent="127" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1060" parent="127" name="winRate">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="1061" parent="127" name="gameId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1062" parent="127" name="perNetbarIds">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1063" parent="127" name="score">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="1064" parent="127" name="score11">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <index id="1065" parent="127" name="FK_7d37d00mqhfrw1894mmihxx0u">
+      <columns>gameId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="1066" parent="127" name="FK_o7gtkt8p855rypoee7s40ah7x">
+      <columns>perNetbarIds</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="1067" parent="128" name="memberId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1068" parent="128" name="gameId">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1069" parent="128" name="perHonnour">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="1070" parent="128" name="playerImg">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1071" parent="128" name="playerName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="1072" parent="128" name="teamId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1073" parent="128" name="teamLeader">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1074" parent="128" name="wayName">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="1075" parent="129" name="tableName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1076" parent="129" name="tableValue">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="1077" parent="130" name="module_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1078" parent="130" name="resource_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="1079" parent="130" name="FK_5w9bqb84p4tlib25bipo8xywr">
+      <columns>resource_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="1080" parent="131" name="role_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1081" parent="131" name="module_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="1082" parent="131" name="FK_b13lvli1bjcwihrg2v50642ed">
+      <columns>module_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="1083" parent="132" name="team_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1084" parent="132" name="netbar_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="1085" parent="132" name="FK_49mja6edml6hkhqtwistamliq">
+      <columns>netbar_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="1086" parent="133" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1087" parent="133" name="role_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="1088" parent="133" name="FK_m85wetwbb85u4wm75y60oadks">
+      <columns>role_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="1089" parent="134" name="module_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1090" parent="134" name="resource_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="1091" parent="134" name="FK_d9o6twev1g0jr0aoe1v6rvp4f">
+      <columns>resource_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="1092" parent="135" name="role_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1093" parent="135" name="module_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="1094" parent="135" name="FK_lmvngliw8i8mjimtvwe9wb7yw">
+      <columns>module_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="1095" parent="136" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1096" parent="136" name="role_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="1097" parent="136" name="FK_bw4glecy0o6o7fff9ybbh572h">
+      <columns>role_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="1098" parent="137" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1099" parent="137" name="betNum">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="1100" parent="137" name="orderTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="1101" parent="137" name="perOdds">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="1102" parent="137" name="quizOrderType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1103" parent="137" name="sceneId">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1104" parent="137" name="score">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1105" parent="137" name="status">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="1106" parent="137" name="teamId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1107" parent="137" name="userId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1108" parent="137" name="gameId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="1109" parent="138" name="userId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="1110" parent="138" name="telePhone">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="1111" parent="138" name="openId">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="1112" parent="138" name="unionId">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="1113" parent="138" name="bindTime">
+      <data-type>varchar(19)|0</data-type>
+    </column>
+    <column id="1114" parent="138" name="headPic">
+      <data-type>varchar(1000)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="1115" parent="138" name="nickName">
+      <data-type>varchar(200)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="1116" parent="138" name="pushKey">
+      <data-type>varchar(500)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="1117" parent="138" name="mobileType">
+      <data-type>int(0)|0</data-type>
+    </column>
+    <column id="1118" parent="138" name="insertTime">
+      <data-type>datetime|0</data-type>
+    </column>
+  </database-model>
+</dataSource>

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ddnBusiness:war exploded">
+    <output-path>$USER_HOME$/Desktop/work/ddnBusiness/target/ddnBusiness</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ddnBusiness" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$USER_HOME$/Desktop/work/ddnBusiness/target/ddnBusiness/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ddnBusiness/web/Web" />
+    </root>
+  </artifact>
+</component>

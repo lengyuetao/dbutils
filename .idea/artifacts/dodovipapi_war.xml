@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dodovipapi:war">
+    <output-path>$USER_HOME$/Desktop/dodovipapi/target</output-path>
+    <root id="archive" name="dodovipapi.war">
+      <element id="artifact" artifact-name="dodovipapi:war exploded" />
+    </root>
+  </artifact>
+</component>

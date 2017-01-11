@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="192.168.10.253">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="adClient"/>
+    <schema id="2" name="bugfree2"/>
+    <schema id="3" name="ddnBusiness"/>
+    <schema id="4" name="demincore"/>
+    <schema id="5" name="deminportal"/>
+    <schema id="6" name="dodocard"/>
+    <schema id="7" name="dodocardutf8"/>
+    <schema id="8" name="dodocardutf8_new"/>
+    <schema id="9" name="dodocom"/>
+    <schema id="10" name="dodoffice"/>
+    <schema id="11" name="dodomonitor"/>
+    <schema id="12" name="dodonetbar"/>
+    <schema id="13" name="dodonew"/>
+    <schema id="14" name="dodonewactivity"/>
+    <schema id="15" name="dodonewml"/>
+    <schema id="16" name="dodopay"/>
+    <schema id="17" name="dodotask"/>
+    <schema id="18" name="dodouser"/>
+    <schema id="19" name="dodoweb"/>
+    <schema id="20" name="dodowx"/>
+    <schema id="21" name="dogame"/>
+    <schema id="22" name="ejforum"/>
+    <schema id="23" name="gamecenter"/>
+    <schema id="24" name="gamecenterapi"/>
+    <schema id="25" name="goldecenters"/>
+    <schema id="26" name="GoldEggCenter"/>
+    <schema id="27" name="information_schema"/>
+    <schema id="28" name="injectparam"/>
+    <schema id="29" name="iprotect"/>
+    <schema id="30" name="jspgou"/>
+    <schema id="31" name="LegendPlatform"/>
+    <schema id="32" name="liveinfo"/>
+    <schema id="33" name="localnetbar"/>
+    <schema id="34" name="lockscreen"/>
+    <schema id="35" name="lyj_test"/>
+    <schema id="36" name="marketing"/>
+    <schema id="37" name="media_platform"/>
+    <schema id="38" name="media_platform1"/>
+    <schema id="39" name="mmcenter"/>
+    <schema id="40" name="mmcenter_new"/>
+    <schema id="41" name="mysql"/>
+    <schema id="42" name="netbar"/>
+    <schema id="43" name="netbar-utf9"/>
+    <schema id="44" name="netbar_utf8"/>
+    <schema id="45" name="netbar_utf8_ml"/>
+    <schema id="46" name="netbarad"/>
+    <schema id="47" name="netpolice"/>
+    <schema id="48" name="netshield"/>
+    <schema id="49" name="newmedia_platform"/>
+    <schema id="50" name="opccore"/>
+    <schema id="51" name="paycenter"/>
+    <schema id="52" name="photo_center"/>
+    <schema id="53" name="publicrealname"/>
+    <schema id="54" name="qipai"/>
+    <schema id="55" name="RealNameSystem"/>
+    <schema id="56" name="securityplat"/>
+    <schema id="57" name="securityplat2"/>
+    <schema id="58" name="Shopping"/>
+    <schema id="59" name="sideclient"/>
+    <schema id="60" name="test"/>
+    <schema id="61" name="versioinManager222"/>
+    <schema id="62" name="vesionManager">
+      <visible>1</visible>
+    </schema>
+    <schema id="63" name="videomanager">
+      <visible>1</visible>
+    </schema>
+    <schema id="64" name="xzg_p2p"/>
+    <schema id="65" name="yongancore"/>
+    <table id="66" parent="62" name="AdvertisePolicy"/>
+    <table id="67" parent="62" name="AdvertiseResource"/>
+    <table id="68" parent="62" name="AdvertiseRule"/>
+    <table id="69" parent="62" name="dodonew_history"/>
+    <table id="70" parent="62" name="domain"/>
+    <table id="71" parent="62" name="FileInfo"/>
+    <table id="72" parent="62" name="FileInfo_lockSc"/>
+    <table id="73" parent="62" name="NetBarAdvertise"/>
+    <table id="74" parent="62" name="NetBarAggregate"/>
+    <table id="75" parent="62" name="NetBarDomain"/>
+    <table id="76" parent="62" name="netbarInfo"/>
+    <table id="77" parent="62" name="NetbarVersion"/>
+    <table id="78" parent="62" name="NetbarVersion_lockSc"/>
+    <table id="79" parent="62" name="OparateLog"/>
+    <table id="80" parent="62" name="processReport"/>
+    <table id="81" parent="62" name="ResourceMD5"/>
+    <table id="82" parent="62" name="ScreenLockConfig"/>
+    <table id="83" parent="62" name="SerialNum"/>
+    <table id="84" parent="62" name="synapplication"/>
+    <table id="85" parent="62" name="SystemConfig"/>
+    <table id="86" parent="62" name="T_CententAddr"/>
+    <table id="87" parent="62" name="T_Syncfile"/>
+    <table id="88" parent="62" name="test"/>
+    <table id="89" parent="62" name="udoLog"/>
+    <table id="90" parent="62" name="version_lockSc"/>
+    <table id="91" parent="62" name="vesion"/>
+    <table id="92" parent="63" name="ET_AreaInfo"/>
+    <table id="93" parent="63" name="QRTZ_BLOB_TRIGGERS"/>
+    <table id="94" parent="63" name="QRTZ_CALENDARS"/>
+    <table id="95" parent="63" name="QRTZ_CRON_TRIGGERS"/>
+    <table id="96" parent="63" name="QRTZ_FIRED_TRIGGERS"/>
+    <table id="97" parent="63" name="QRTZ_JOB_DETAILS"/>
+    <table id="98" parent="63" name="QRTZ_JOB_LISTENERS"/>
+    <table id="99" parent="63" name="QRTZ_LOCKS"/>
+    <table id="100" parent="63" name="QRTZ_PAUSED_TRIGGER_GRPS"/>
+    <table id="101" parent="63" name="QRTZ_SCHEDULER_STATE"/>
+    <table id="102" parent="63" name="QRTZ_SIMPLE_TRIGGERS"/>
+    <table id="103" parent="63" name="QRTZ_TRIGGER_LISTENERS"/>
+    <table id="104" parent="63" name="QRTZ_TRIGGERS"/>
+    <table id="105" parent="63" name="SM_Module"/>
+    <table id="106" parent="63" name="SM_Privilege"/>
+    <table id="107" parent="63" name="SM_Role"/>
+    <table id="108" parent="63" name="SM_SerialNum"/>
+    <table id="109" parent="63" name="SM_SessionInfo"/>
+    <table id="110" parent="63" name="SM_SystemConfig"/>
+    <table id="111" parent="63" name="SM_User"/>
+    <table id="112" parent="63" name="SM_UserRole"/>
+    <table id="113" parent="63" name="ST_ApiLog"/>
+    <table id="114" parent="63" name="ST_OpcLog"/>
+    <table id="115" parent="63" name="VersionInfo"/>
+    <table id="116" parent="63" name="VersionStrategy"/>
+    <table id="117" parent="63" name="VideoDevice"/>
+    <table id="118" parent="63" name="VideoDeviceUpload"/>
+    <table id="119" parent="63" name="VideoPicture"/>
+    <column id="120" parent="66" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="121" parent="66" name="policyId">
+      <mandatory>1</mandatory>
+      <data-type>BIGINT(19)|-5</data-type>
+    </column>
+    <column id="122" parent="66" name="posId">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <key id="123" parent="66" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>policyId
+domainId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="124" parent="67" name="resourceId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="125" parent="67" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="126" parent="67" name="resourceType">
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="127" parent="67" name="resourceContent">
+      <data-type>VARCHAR(255)|12</data-type>
+    </column>
+    <column id="128" parent="67" name="md5">
+      <data-type>VARCHAR(255)|12</data-type>
+    </column>
+    <column id="129" parent="67" name="linkUrl">
+      <data-type>VARCHAR(255)|12</data-type>
+    </column>
+    <column id="130" parent="67" name="beginDate">
+      <data-type>DATE(10)|91</data-type>
+    </column>
+    <column id="131" parent="67" name="endDate">
+      <data-type>DATE(10)|91</data-type>
+    </column>
+    <column id="132" parent="67" name="jumpUrl">
+      <data-type>VARCHAR(255)|12</data-type>
+    </column>
+    <key id="133" parent="67" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>resourceId
+domainId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="134" parent="68" name="serialNo">
+      <mandatory>1</mandatory>
+      <data-type>BIGINT(19)|-5</data-type>
+    </column>
+    <column id="135" parent="68" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="136" parent="68" name="resourceId">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="137" parent="68" name="policyId">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="138" parent="68" name="pcClass">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="139" parent="68" name="beginTime">
+      <data-type>TIME(8)|92</data-type>
+    </column>
+    <column id="140" parent="68" name="endTime">
+      <data-type>TIME(8)|92</data-type>
+    </column>
+    <key id="141" parent="68" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>serialNo
+domainId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="142" parent="69" name="id">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="143" parent="69" name="domainId">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="144" parent="69" name="netbarcount">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="145" parent="69" name="version">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="146" parent="69" name="black">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="147" parent="69" name="active">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="148" parent="69" name="zombiecount">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="149" parent="69" name="zombie">
+      <data-type>VARCHAR(11000)|12</data-type>
+    </column>
+    <column id="150" parent="69" name="noversioncount">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="151" parent="69" name="noversion">
+      <data-type>VARCHAR(10000)|12</data-type>
+    </column>
+    <column id="152" parent="69" name="createtime">
+      <data-type>DATE(10)|91</data-type>
+    </column>
+    <key id="153" parent="69" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="154" parent="70" name="id">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="155" parent="70" name="domaina">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="156" parent="70" name="domainb">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="157" parent="71" name="fileName">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="158" parent="71" name="md5Value">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="159" parent="71" name="vesion">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="160" parent="71" name="uploadTime">
+      <mandatory>1</mandatory>
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <column id="161" parent="71" name="fileUrl">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="162" parent="71" name="handle">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="163" parent="71" name="id">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="164" parent="71" name="url">
+      <data-type>VARCHAR(1000)|12</data-type>
+    </column>
+    <column id="165" parent="71" name="downloadLevel">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="166" parent="71" name="optStatus">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="167" parent="71" name="statusDate">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="168" parent="72" name="fileName">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="169" parent="72" name="md5Value">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="170" parent="72" name="vesion">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="171" parent="72" name="uploadTime">
+      <mandatory>1</mandatory>
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <column id="172" parent="72" name="fileUrl">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="173" parent="72" name="handle">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="174" parent="72" name="id">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="175" parent="72" name="url">
+      <data-type>VARCHAR(1000)|12</data-type>
+    </column>
+    <column id="176" parent="72" name="forwardUrl">
+      <comment>跳转链接</comment>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="177" parent="72" name="startTime">
+      <comment>开始时间</comment>
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <column id="178" parent="72" name="endTime">
+      <comment>结束时间</comment>
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <column id="179" parent="73" name="netBarId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="180" parent="73" name="policyId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="181" parent="73" name="posId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="182" parent="73" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <key id="183" parent="73" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>policyId
+netBarId
+posId
+domainId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="184" parent="74" name="masterNetBarId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="185" parent="74" name="slaveNetBarId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="186" parent="74" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <key id="187" parent="74" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>masterNetBarId
+slaveNetBarId
+domainId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="188" parent="75" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="189" parent="75" name="domainName">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="190" parent="75" name="domainUrl">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="191" parent="75" name="lockDomainUrl">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="192" parent="76" name="id">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="193" parent="76" name="domainId">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="194" parent="76" name="netbarId">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="195" parent="76" name="netbarName">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="196" parent="76" name="netBarCaption">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="197" parent="76" name="vesion">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="198" parent="76" name="netBarType">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="199" parent="76" name="isAggregate">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="200" parent="76" name="parentNetBar">
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="201" parent="76" name="isBarkList">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="202" parent="76" name="beginDate">
+      <data-type>DATE(10)|91</data-type>
+    </column>
+    <column id="203" parent="76" name="openDate">
+      <data-type>DATE(10)|91</data-type>
+    </column>
+    <column id="204" parent="76" name="onNum">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="205" parent="76" name="types">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="206" parent="76" name="lockScBlackList">
+      <comment>9 代表在黑名单之中</comment>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <index id="207" parent="76" name="index_name">
+      <columns>domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="208" parent="77" name="netbarId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="209" parent="77" name="versionId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="210" parent="77" name="isUse">
+      <comment>0启用 1弃用</comment>
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <key id="211" parent="77" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>netbarId
+versionId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="212" parent="78" name="netBarInfoId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="213" parent="78" name="versionId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <key id="214" parent="78" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>netBarInfoId
+versionId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="215" parent="79" name="userName">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="216" parent="79" name="handleTime">
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <column id="217" parent="79" name="description">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="218" parent="80" name="id">
+      <mandatory>1</mandatory>
+      <data-type>BIGINT(19)|-5</data-type>
+    </column>
+    <column id="219" parent="80" name="domainId">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="220" parent="80" name="netBarId">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="221" parent="80" name="addTime">
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <column id="222" parent="80" name="ipAddr">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="223" parent="80" name="a1">
+      <data-type>TEXT(65535)|-1</data-type>
+    </column>
+    <column id="224" parent="80" name="a2">
+      <data-type>TEXT(65535)|-1</data-type>
+    </column>
+    <column id="225" parent="80" name="a3">
+      <data-type>TEXT(65535)|-1</data-type>
+    </column>
+    <index id="226" parent="80" name="index_netDomain">
+      <columns>netBarId
+domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="227" parent="80" name="addTime">
+      <columns>addTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="228" parent="80" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="229" parent="81" name="url">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(255)|12</data-type>
+    </column>
+    <column id="230" parent="81" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="231" parent="81" name="md5">
+      <data-type>VARCHAR(255)|12</data-type>
+    </column>
+    <key id="232" parent="81" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>url
+domainId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="233" parent="82" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="234" parent="82" name="netBarId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="235" parent="82" name="isAllowSelfLock">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="236" parent="82" name="expireTime">
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <key id="237" parent="82" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>netBarId
+domainId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="238" parent="83" name="tableName">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="239" parent="83" name="serialNumber">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <key id="240" parent="83" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>tableName</columns>
+      <primary>1</primary>
+    </key>
+    <column id="241" parent="84" name="id">
+      <mandatory>1</mandatory>
+      <data-type>BIGINT(19)|-5</data-type>
+    </column>
+    <column id="242" parent="84" name="domainId">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="243" parent="84" name="netBarId">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="244" parent="84" name="ipAddr">
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="245" parent="84" name="CheckudoVersion">
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="246" parent="84" name="synVersion">
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="247" parent="84" name="status">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="248" parent="84" name="addTime">
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <index id="249" parent="84" name="index_synVerDomain">
+      <columns>domainId
+synVersion</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="250" parent="84" name="domainId">
+      <columns>domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="251" parent="84" name="index_synNetDomain">
+      <columns>netBarId
+domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="252" parent="84" name="index_synIpNetDomain">
+      <columns>ipAddr
+netBarId
+domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="253" parent="84" name="addTime">
+      <columns>addTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="254" parent="84" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="255" parent="85" name="keyName">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="256" parent="85" name="keyValue">
+      <data-type>VARCHAR(100)|12</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="257" parent="85" name="description">
+      <data-type>VARCHAR(100)|12</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <key id="258" parent="85" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>keyName</columns>
+      <primary>1</primary>
+    </key>
+    <column id="259" parent="86" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(45)|12</data-type>
+    </column>
+    <column id="260" parent="86" name="cententName">
+      <data-type>VARCHAR(45)|12</data-type>
+    </column>
+    <column id="261" parent="86" name="cententUrl">
+      <data-type>VARCHAR(450)|12</data-type>
+    </column>
+    <key id="262" parent="86" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>domainId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="263" parent="87" name="domainId">
+      <data-type>VARCHAR(45)|12</data-type>
+    </column>
+    <column id="264" parent="87" name="netbarId">
+      <data-type>VARCHAR(45)|12</data-type>
+    </column>
+    <column id="265" parent="87" name="md5">
+      <data-type>VARCHAR(45)|12</data-type>
+    </column>
+    <column id="266" parent="87" name="operator">
+      <data-type>VARCHAR(45)|12</data-type>
+    </column>
+    <column id="267" parent="87" name="type">
+      <data-type>VARCHAR(45)|12</data-type>
+    </column>
+    <column id="268" parent="87" name="url">
+      <data-type>VARCHAR(450)|12</data-type>
+    </column>
+    <column id="269" parent="87" name="dt">
+      <data-type>VARCHAR(45)|12</data-type>
+    </column>
+    <column id="270" parent="88" name="id">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="271" parent="88" name="name">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <key id="272" parent="88" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="273" parent="89" name="id">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="274" parent="89" name="domainId">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="275" parent="89" name="netbarId">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="276" parent="89" name="logUrl">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="277" parent="89" name="startTime">
+      <data-type>DATE(10)|91</data-type>
+    </column>
+    <column id="278" parent="89" name="endTime">
+      <data-type>DATE(10)|91</data-type>
+    </column>
+    <column id="279" parent="89" name="status">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="280" parent="89" name="addTime">
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <key id="281" parent="89" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="282" parent="90" name="id">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="283" parent="90" name="vesionName">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="284" parent="90" name="remark">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="285" parent="91" name="id">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="286" parent="91" name="vesionName">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="287" parent="91" name="remark">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="288" parent="91" name="createUser">
+      <data-type>VARCHAR(50)|12</data-type>
+      <default-expression>&apos;huzg&apos;</default-expression>
+    </column>
+    <column id="289" parent="91" name="createTime">
+      <data-type>VARCHAR(40)|12</data-type>
+      <default-expression>&apos;2016-03-24 11:00:00&apos;</default-expression>
+    </column>
+    <column id="290" parent="92" name="areaId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="291" parent="92" name="areaCode">
+      <data-type>VARCHAR(30)|12</data-type>
+    </column>
+    <column id="292" parent="92" name="areaName">
+      <data-type>VARCHAR(30)|12</data-type>
+    </column>
+    <column id="293" parent="92" name="areaLevel">
+      <data-type>SMALLINT(5)|5</data-type>
+    </column>
+    <column id="294" parent="92" name="areaParent">
+      <data-type>VARCHAR(30)|12</data-type>
+    </column>
+    <column id="295" parent="92" name="areaLat">
+      <data-type>DOUBLE(22)|8</data-type>
+    </column>
+    <column id="296" parent="92" name="areaLong">
+      <data-type>DOUBLE(22)|8</data-type>
+    </column>
+    <column id="297" parent="92" name="areaAddress">
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <key id="298" parent="92" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>areaId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="299" parent="93" name="TRIGGER_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="300" parent="93" name="TRIGGER_GROUP">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="301" parent="93" name="BLOB_DATA">
+      <data-type>BLOB(65535)|-4</data-type>
+    </column>
+    <key id="302" parent="93" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>TRIGGER_NAME
+TRIGGER_GROUP</columns>
+      <primary>1</primary>
+    </key>
+    <column id="303" parent="94" name="CALENDAR_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="304" parent="94" name="CALENDAR">
+      <mandatory>1</mandatory>
+      <data-type>BLOB(65535)|-4</data-type>
+    </column>
+    <key id="305" parent="94" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>CALENDAR_NAME</columns>
+      <primary>1</primary>
+    </key>
+    <column id="306" parent="95" name="TRIGGER_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="307" parent="95" name="TRIGGER_GROUP">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="308" parent="95" name="CRON_EXPRESSION">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="309" parent="95" name="TIME_ZONE_ID">
+      <data-type>VARCHAR(80)|12</data-type>
+    </column>
+    <key id="310" parent="95" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>TRIGGER_NAME
+TRIGGER_GROUP</columns>
+      <primary>1</primary>
+    </key>
+    <column id="311" parent="96" name="ENTRY_ID">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(95)|12</data-type>
+    </column>
+    <column id="312" parent="96" name="TRIGGER_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="313" parent="96" name="TRIGGER_GROUP">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="314" parent="96" name="IS_VOLATILE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(1)|12</data-type>
+    </column>
+    <column id="315" parent="96" name="INSTANCE_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="316" parent="96" name="FIRED_TIME">
+      <mandatory>1</mandatory>
+      <data-type>BIGINT(19)|-5</data-type>
+    </column>
+    <column id="317" parent="96" name="PRIORITY">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="318" parent="96" name="STATE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(16)|12</data-type>
+    </column>
+    <column id="319" parent="96" name="JOB_NAME">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="320" parent="96" name="JOB_GROUP">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="321" parent="96" name="IS_STATEFUL">
+      <data-type>VARCHAR(1)|12</data-type>
+    </column>
+    <column id="322" parent="96" name="REQUESTS_RECOVERY">
+      <data-type>VARCHAR(1)|12</data-type>
+    </column>
+    <key id="323" parent="96" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>ENTRY_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="324" parent="97" name="JOB_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="325" parent="97" name="JOB_GROUP">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="326" parent="97" name="DESCRIPTION">
+      <data-type>VARCHAR(250)|12</data-type>
+    </column>
+    <column id="327" parent="97" name="JOB_CLASS_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(250)|12</data-type>
+    </column>
+    <column id="328" parent="97" name="IS_DURABLE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(1)|12</data-type>
+    </column>
+    <column id="329" parent="97" name="IS_VOLATILE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(1)|12</data-type>
+    </column>
+    <column id="330" parent="97" name="IS_STATEFUL">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(1)|12</data-type>
+    </column>
+    <column id="331" parent="97" name="REQUESTS_RECOVERY">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(1)|12</data-type>
+    </column>
+    <column id="332" parent="97" name="JOB_DATA">
+      <data-type>BLOB(65535)|-4</data-type>
+    </column>
+    <key id="333" parent="97" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>JOB_NAME
+JOB_GROUP</columns>
+      <primary>1</primary>
+    </key>
+    <column id="334" parent="98" name="JOB_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="335" parent="98" name="JOB_GROUP">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="336" parent="98" name="JOB_LISTENER">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <key id="337" parent="98" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>JOB_NAME
+JOB_GROUP
+JOB_LISTENER</columns>
+      <primary>1</primary>
+    </key>
+    <column id="338" parent="99" name="LOCK_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(40)|12</data-type>
+    </column>
+    <key id="339" parent="99" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>LOCK_NAME</columns>
+      <primary>1</primary>
+    </key>
+    <column id="340" parent="100" name="TRIGGER_GROUP">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <key id="341" parent="100" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>TRIGGER_GROUP</columns>
+      <primary>1</primary>
+    </key>
+    <column id="342" parent="101" name="INSTANCE_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="343" parent="101" name="LAST_CHECKIN_TIME">
+      <mandatory>1</mandatory>
+      <data-type>BIGINT(19)|-5</data-type>
+    </column>
+    <column id="344" parent="101" name="CHECKIN_INTERVAL">
+      <mandatory>1</mandatory>
+      <data-type>BIGINT(19)|-5</data-type>
+    </column>
+    <key id="345" parent="101" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>INSTANCE_NAME</columns>
+      <primary>1</primary>
+    </key>
+    <column id="346" parent="102" name="TRIGGER_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="347" parent="102" name="TRIGGER_GROUP">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="348" parent="102" name="REPEAT_COUNT">
+      <mandatory>1</mandatory>
+      <data-type>BIGINT(19)|-5</data-type>
+    </column>
+    <column id="349" parent="102" name="REPEAT_INTERVAL">
+      <mandatory>1</mandatory>
+      <data-type>BIGINT(19)|-5</data-type>
+    </column>
+    <column id="350" parent="102" name="TIMES_TRIGGERED">
+      <mandatory>1</mandatory>
+      <data-type>BIGINT(19)|-5</data-type>
+    </column>
+    <key id="351" parent="102" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>TRIGGER_NAME
+TRIGGER_GROUP</columns>
+      <primary>1</primary>
+    </key>
+    <column id="352" parent="103" name="TRIGGER_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="353" parent="103" name="TRIGGER_GROUP">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="354" parent="103" name="TRIGGER_LISTENER">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <key id="355" parent="103" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>TRIGGER_NAME
+TRIGGER_GROUP
+TRIGGER_LISTENER</columns>
+      <primary>1</primary>
+    </key>
+    <column id="356" parent="104" name="TRIGGER_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="357" parent="104" name="TRIGGER_GROUP">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="358" parent="104" name="JOB_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="359" parent="104" name="JOB_GROUP">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="360" parent="104" name="IS_VOLATILE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(1)|12</data-type>
+    </column>
+    <column id="361" parent="104" name="DESCRIPTION">
+      <data-type>VARCHAR(250)|12</data-type>
+    </column>
+    <column id="362" parent="104" name="NEXT_FIRE_TIME">
+      <data-type>BIGINT(19)|-5</data-type>
+    </column>
+    <column id="363" parent="104" name="PREV_FIRE_TIME">
+      <data-type>BIGINT(19)|-5</data-type>
+    </column>
+    <column id="364" parent="104" name="PRIORITY">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="365" parent="104" name="TRIGGER_STATE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(16)|12</data-type>
+    </column>
+    <column id="366" parent="104" name="TRIGGER_TYPE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(8)|12</data-type>
+    </column>
+    <column id="367" parent="104" name="START_TIME">
+      <mandatory>1</mandatory>
+      <data-type>BIGINT(19)|-5</data-type>
+    </column>
+    <column id="368" parent="104" name="END_TIME">
+      <data-type>BIGINT(19)|-5</data-type>
+    </column>
+    <column id="369" parent="104" name="CALENDAR_NAME">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="370" parent="104" name="MISFIRE_INSTR">
+      <data-type>SMALLINT(5)|5</data-type>
+    </column>
+    <column id="371" parent="104" name="JOB_DATA">
+      <data-type>BLOB(65535)|-4</data-type>
+    </column>
+    <key id="372" parent="104" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>TRIGGER_NAME
+TRIGGER_GROUP</columns>
+      <primary>1</primary>
+    </key>
+    <column id="373" parent="105" name="moduleId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="374" parent="105" name="moduleName">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="375" parent="105" name="moduleLink">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="376" parent="105" name="parentModuleId">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <key id="377" parent="105" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>moduleId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="378" parent="106" name="roleId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="379" parent="106" name="moduleId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="380" parent="106" name="privilege">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="381" parent="106" name="remark">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <key id="382" parent="106" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>roleId
+moduleId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="383" parent="107" name="roleId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="384" parent="107" name="roleName">
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="385" parent="107" name="remark">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <key id="386" parent="107" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>roleId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="387" parent="108" name="tableName">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="388" parent="108" name="serialNumber">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="389" parent="108" name="remark">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <key id="390" parent="108" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>tableName</columns>
+      <primary>1</primary>
+    </key>
+    <column id="391" parent="109" name="userId">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="392" parent="109" name="sessionId">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(40)|12</data-type>
+    </column>
+    <column id="393" parent="109" name="createTime">
+      <mandatory>1</mandatory>
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <key id="394" parent="109" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>userId
+sessionId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="395" parent="110" name="keyName">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="396" parent="110" name="keyValue">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="397" parent="110" name="description">
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <key id="398" parent="110" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>keyName</columns>
+      <primary>1</primary>
+    </key>
+    <column id="399" parent="111" name="userId">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="400" parent="111" name="userName">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="401" parent="111" name="userPassword">
+      <data-type>VARCHAR(32)|12</data-type>
+    </column>
+    <column id="402" parent="111" name="telPhone">
+      <data-type>VARCHAR(20)|12</data-type>
+    </column>
+    <column id="403" parent="111" name="email">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="404" parent="111" name="address">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <column id="405" parent="111" name="active">
+      <data-type>SMALLINT(5)|5</data-type>
+    </column>
+    <column id="406" parent="111" name="lastTime">
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <column id="407" parent="111" name="currentTime">
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <column id="408" parent="111" name="loginAddress">
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="409" parent="111" name="loginIp">
+      <data-type>VARCHAR(20)|12</data-type>
+    </column>
+    <column id="410" parent="111" name="loginNum">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="411" parent="111" name="areaId">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="412" parent="111" name="hasAdmin">
+      <data-type>SMALLINT(5)|5</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <key id="413" parent="111" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>userId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="414" parent="112" name="roleId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="415" parent="112" name="userId">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="416" parent="112" name="remark">
+      <data-type>VARCHAR(200)|12</data-type>
+    </column>
+    <key id="417" parent="112" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>roleId
+userId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="418" parent="113" name="logId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="419" parent="113" name="operateTime">
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <column id="420" parent="113" name="operateType">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="421" parent="113" name="operator">
+      <data-type>VARCHAR(20)|12</data-type>
+    </column>
+    <column id="422" parent="113" name="appId">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="423" parent="113" name="apiName">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="424" parent="113" name="logInfo">
+      <data-type>VARCHAR(600)|12</data-type>
+    </column>
+    <column id="425" parent="113" name="resultCode">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="426" parent="113" name="msg">
+      <data-type>VARCHAR(400)|12</data-type>
+    </column>
+    <column id="427" parent="113" name="consumeTime">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="428" parent="113" name="taskId">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="429" parent="113" name="isSynchro">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="430" parent="113" name="logType">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="431" parent="113" name="isCache">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <key id="432" parent="113" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>logId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="433" parent="114" name="logId">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="434" parent="114" name="operateTime">
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <column id="435" parent="114" name="operateType">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="436" parent="114" name="operator">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="437" parent="114" name="parentModule">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="438" parent="114" name="operateModule">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="439" parent="114" name="logInfo">
+      <data-type>VARCHAR(600)|12</data-type>
+    </column>
+    <column id="440" parent="114" name="operateResult">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="441" parent="114" name="consumeTime">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <key id="442" parent="114" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>logId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="443" parent="115" name="versionId">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR(10)|12</data-type>
+    </column>
+    <column id="444" parent="115" name="upgradeUrl">
+      <data-type>VARCHAR(500)|12</data-type>
+    </column>
+    <column id="445" parent="115" name="hashValue">
+      <data-type>VARCHAR(100)|12</data-type>
+    </column>
+    <column id="446" parent="115" name="publishDate">
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <column id="447" parent="115" name="remark">
+      <data-type>VARCHAR(500)|12</data-type>
+    </column>
+    <key id="448" parent="115" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>versionId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="449" parent="116" name="id">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="450" parent="116" name="versionId">
+      <data-type>VARCHAR(10)|12</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="451" parent="116" name="minVersion">
+      <data-type>FLOAT(12)|7</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="452" parent="116" name="maxVersion">
+      <data-type>FLOAT(12)|7</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="453" parent="116" name="minDeviceId">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="454" parent="116" name="maxDeviceId">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="455" parent="116" name="hasActive">
+      <data-type>SMALLINT(5)|5</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="456" parent="116" name="remark">
+      <data-type>VARCHAR(500)|12</data-type>
+    </column>
+    <key id="457" parent="116" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="458" parent="117" name="id">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="459" parent="117" name="deviceId">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="460" parent="117" name="machineId">
+      <data-type>VARCHAR(20)|12</data-type>
+    </column>
+    <column id="461" parent="117" name="password">
+      <comment>Hash</comment>
+      <data-type>VARCHAR(32)|12</data-type>
+    </column>
+    <column id="462" parent="117" name="name">
+      <comment>&apos;设备名&apos;</comment>
+      <data-type>VARCHAR(128)|12</data-type>
+    </column>
+    <column id="463" parent="117" name="areaId">
+      <comment>安装区域，（这个字段可按平台特性修改，跟权限控制有关）</comment>
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="464" parent="117" name="address">
+      <comment>&apos;安装地址&apos;</comment>
+      <data-type>VARCHAR(255)|12</data-type>
+    </column>
+    <column id="465" parent="117" name="ip">
+      <data-type>VARCHAR(15)|12</data-type>
+    </column>
+    <column id="466" parent="117" name="status">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="467" parent="117" name="message">
+      <data-type>TEXT(65535)|-1</data-type>
+    </column>
+    <column id="468" parent="117" name="modemInfo">
+      <data-type>TEXT(65535)|-1</data-type>
+    </column>
+    <column id="469" parent="117" name="lastCheck">
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <column id="470" parent="117" name="freeDisk">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="471" parent="117" name="totalDisk">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="472" parent="117" name="Lat">
+      <comment>安装纬度</comment>
+      <data-type>DOUBLE(22)|8</data-type>
+    </column>
+    <column id="473" parent="117" name="Lng">
+      <comment>安装经度</comment>
+      <data-type>DOUBLE(22)|8</data-type>
+    </column>
+    <column id="474" parent="117" name="iccId">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="475" parent="117" name="signalNum">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="476" parent="117" name="operator">
+      <data-type>VARCHAR(20)|12</data-type>
+    </column>
+    <column id="477" parent="117" name="network">
+      <data-type>VARCHAR(20)|12</data-type>
+    </column>
+    <column id="478" parent="117" name="chipId">
+      <data-type>VARCHAR(50)|12</data-type>
+    </column>
+    <column id="479" parent="117" name="versionId">
+      <data-type>VARCHAR(10)|12</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="480" parent="117" name="uptime">
+      <data-type>FLOAT(12)|7</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="481" parent="117" name="todayVideoSize">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="482" parent="117" name="reboot">
+      <data-type>SMALLINT(5)|5</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="483" parent="117" name="rechargDate">
+      <data-type>DATE(10)|91</data-type>
+      <default-expression>&apos;2014-01-01&apos;</default-expression>
+    </column>
+    <index id="484" parent="117" name="chipId">
+      <columns>chipId</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <key id="485" parent="117" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="486" parent="118" name="id">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="487" parent="118" name="deviceId">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="488" parent="118" name="textInfo">
+      <data-type>TEXT(65535)|-1</data-type>
+    </column>
+    <column id="489" parent="118" name="textType">
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="490" parent="118" name="uploadDate">
+      <comment>上传时间
+</comment>
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <index id="491" parent="118" name="fk_VideoDevice">
+      <columns>deviceId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="492" parent="118" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="493" parent="119" name="id">
+      <mandatory>1</mandatory>
+      <data-type>INT(10)|4</data-type>
+    </column>
+    <column id="494" parent="119" name="deviceId">
+      <data-type>INT(10)|4</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <column id="495" parent="119" name="fileName">
+      <data-type>VARCHAR(300)|12</data-type>
+    </column>
+    <column id="496" parent="119" name="takenDate">
+      <comment>拍摄时间</comment>
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <column id="497" parent="119" name="uploadDate">
+      <data-type>DATETIME(19)|93</data-type>
+    </column>
+    <index id="498" parent="119" name="fk_VideoDevice">
+      <columns>deviceId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="499" parent="119" name="PRIMARY">
+      <name-surrogate>1</name-surrogate>
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>

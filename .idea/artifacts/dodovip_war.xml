@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dodovip:war">
+    <output-path>$USER_HOME$/Desktop/work/dodovip/target</output-path>
+    <root id="archive" name="dodovip.war">
+      <element id="artifact" artifact-name="dodovip:war exploded" />
+    </root>
+  </artifact>
+</component>

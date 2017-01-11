@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dbutils.iml" filepath="$PROJECT_DIR$/dbutils.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/work/ddnBusiness/ddnBusiness.iml" filepath="$USER_HOME$/Desktop/work/ddnBusiness/ddnBusiness.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/work/dodovip/dodovip.iml" filepath="$USER_HOME$/Desktop/work/dodovip/dodovip.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/dodovipapi/dodovipapi.iml" filepath="$USER_HOME$/Desktop/dodovipapi/dodovipapi.iml" />
+    </modules>
+  </component>
+</project>

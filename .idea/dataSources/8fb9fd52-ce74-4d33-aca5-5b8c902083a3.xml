@@ -1,0 +1,1475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="ddndownload">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema"/>
+    <schema id="3" name="mysql"/>
+    <schema id="4" name="performance_schema"/>
+    <schema id="5" name="sys"/>
+    <schema id="6" name="test">
+      <visible>1</visible>
+    </schema>
+    <schema id="7" name="vesionManager"/>
+    <table id="8" parent="1" name="baiducasedataanalyse"/>
+    <table id="9" parent="1" name="baiduservicecount"/>
+    <table id="10" parent="1" name="clickcount"/>
+    <table id="11" parent="1" name="dodonewservice"/>
+    <table id="12" parent="1" name="drivercase"/>
+    <table id="13" parent="1" name="homepageservice"/>
+    <table id="14" parent="1" name="homepageservicecount"/>
+    <table id="15" parent="1" name="ipnetbar"/>
+    <table id="16" parent="1" name="iusservice"/>
+    <table id="17" parent="1" name="netbarinfo"/>
+    <table id="18" parent="1" name="one"/>
+    <table id="19" parent="1" name="one1"/>
+    <table id="20" parent="1" name="processReport"/>
+    <table id="21" parent="1" name="processinfo"/>
+    <table id="22" parent="1" name="qqlistservice"/>
+    <table id="23" parent="1" name="qqservice"/>
+    <table id="24" parent="1" name="reportversion"/>
+    <table id="25" parent="1" name="reqcount"/>
+    <table id="26" parent="1" name="serialnum"/>
+    <table id="27" parent="1" name="shortcutexeservice"/>
+    <table id="28" parent="1" name="shortcutexeservicecount"/>
+    <table id="29" parent="1" name="shortcutservice"/>
+    <table id="30" parent="1" name="shortcutservicecount"/>
+    <table id="31" parent="1" name="statiscsAnalyse"/>
+    <table id="32" parent="1" name="synapplication"/>
+    <table id="33" parent="1" name="synapplication1"/>
+    <table id="34" parent="1" name="systemconfig"/>
+    <table id="35" parent="1" name="test"/>
+    <table id="36" parent="1" name="tncountservice"/>
+    <table id="37" parent="1" name="tnservice"/>
+    <table id="38" parent="1" name="udoLog"/>
+    <table id="39" parent="1" name="versiondataanalyse"/>
+    <table id="40" parent="1" name="versionhotkey"/>
+    <table id="41" parent="1" name="vipnetbarversion"/>
+    <table id="42" parent="1" name="VersionHotKeyInfo"/>
+    <table id="43" parent="1" name="synapplicationinfo"/>
+    <routine id="44" parent="1" name="addOne">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="45" parent="1" name="addOne1">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <table id="46" parent="6" name="UserAccount"/>
+    <table id="47" parent="6" name="test"/>
+    <table id="48" parent="6" name="Person"/>
+    <column id="49" parent="8" name="tranDate">
+      <mandatory>1</mandatory>
+      <data-type>date|0</data-type>
+    </column>
+    <column id="50" parent="8" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="51" parent="8" name="paramName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="52" parent="8" name="count">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="53" parent="9" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="54" parent="9" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="55" parent="9" name="netbarId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="56" parent="9" name="countNum">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="57" parent="9" name="tranDate">
+      <mandatory>1</mandatory>
+      <data-type>date|0</data-type>
+    </column>
+    <key id="58" parent="9" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="59" parent="10" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="60" parent="10" name="netbarInfo_id">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="61" parent="10" name="netbarId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="62" parent="10" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="63" parent="10" name="versionName">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="64" parent="10" name="status">
+      <data-type>int(255)|0</data-type>
+    </column>
+    <column id="65" parent="10" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <index id="66" parent="10" name="addTime">
+      <columns>addTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="67" parent="10" name="domainId">
+      <columns>domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="68" parent="10" name="index_reqcounts">
+      <columns>versionName
+netbarId
+domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="69" parent="10" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="70" parent="11" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="71" parent="11" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="72" parent="11" name="netbarId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="73" parent="11" name="pName">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="74" parent="11" name="sysVer">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="75" parent="11" name="game">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="76" parent="11" name="UDO">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="77" parent="11" name="IProtect">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="78" parent="11" name="IProtectTrue">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="79" parent="11" name="dodoNew">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="80" parent="11" name="checkFile">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="81" parent="11" name="dspDriver">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="82" parent="11" name="mobileServer">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="83" parent="11" name="302Server">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="84" parent="11" name="IP">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="85" parent="11" name="a8">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="86" parent="11" name="a9">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="87" parent="11" name="a10">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="88" parent="11" name="a11">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="89" parent="11" name="a12">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="90" parent="11" name="a13">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="91" parent="11" name="tranDate">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="92" parent="11" name="tranTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="93" parent="11" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="94" parent="12" name="logId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="95" parent="12" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="96" parent="12" name="netbarId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="97" parent="12" name="driver1Status">
+      <mandatory>1</mandatory>
+      <data-type>tinyint(4)|0</data-type>
+    </column>
+    <column id="98" parent="12" name="reason1">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="99" parent="12" name="driver2Status">
+      <mandatory>1</mandatory>
+      <data-type>tinyint(4)|0</data-type>
+    </column>
+    <column id="100" parent="12" name="reason2">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="101" parent="12" name="resultStatus">
+      <mandatory>1</mandatory>
+      <data-type>tinyint(4)|0</data-type>
+    </column>
+    <column id="102" parent="12" name="logTime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="103" parent="12" name="ver">
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <column id="104" parent="12" name="refreshPlatform">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <index id="105" parent="12" name="Index_logTime">
+      <columns>logTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="106" parent="12" name="PRIMARY">
+      <columns>logId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="107" parent="13" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="108" parent="13" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="109" parent="13" name="netBarId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="110" parent="13" name="home">
+      <data-type>varchar(4096)|0</data-type>
+    </column>
+    <column id="111" parent="13" name="a0">
+      <data-type>varchar(2048)|0</data-type>
+    </column>
+    <column id="112" parent="13" name="a1">
+      <data-type>varchar(2048)|0</data-type>
+    </column>
+    <column id="113" parent="13" name="a2">
+      <data-type>varchar(2048)|0</data-type>
+    </column>
+    <column id="114" parent="13" name="a3">
+      <data-type>varchar(2048)|0</data-type>
+    </column>
+    <column id="115" parent="13" name="a4">
+      <data-type>varchar(2048)|0</data-type>
+    </column>
+    <column id="116" parent="13" name="a5">
+      <data-type>varchar(2048)|0</data-type>
+    </column>
+    <column id="117" parent="13" name="tranDate">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="118" parent="13" name="tranTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="119" parent="13" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="120" parent="14" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="121" parent="14" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="122" parent="14" name="netbarId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="123" parent="14" name="home">
+      <mandatory>1</mandatory>
+      <data-type>varchar(2048)|0</data-type>
+    </column>
+    <column id="124" parent="14" name="countNum">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="125" parent="14" name="tranDate">
+      <mandatory>1</mandatory>
+      <data-type>date|0</data-type>
+    </column>
+    <key id="126" parent="14" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="127" parent="15" name="ip">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="128" parent="15" name="netbarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="129" parent="15" name="PRIMARY">
+      <columns>ip</columns>
+      <primary>1</primary>
+    </key>
+    <column id="130" parent="16" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="131" parent="16" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="132" parent="16" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="133" parent="16" name="ius">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="134" parent="16" name="iusser">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="135" parent="16" name="a0">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="136" parent="16" name="a1">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="137" parent="16" name="a2">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="138" parent="16" name="a3">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="139" parent="16" name="a4">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="140" parent="16" name="a5">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="141" parent="16" name="tranDate">
+      <comment>yyyy-MM-dd</comment>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="142" parent="16" name="tranTime">
+      <comment>yyyy-MM-dd HH:mm:ss</comment>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <key id="143" parent="16" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="144" parent="17" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="145" parent="17" name="netBarId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="146" parent="17" name="netBarName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="147" parent="17" name="netBarCaption">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="148" parent="17" name="netBarType">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="149" parent="17" name="pcNum">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="150" parent="17" name="parentNetBar">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="151" parent="17" name="cipherMode">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="152" parent="17" name="updateFlag">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="153" parent="17" name="available">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;1&apos;</default-expression>
+    </column>
+    <column id="154" parent="17" name="businessTemplateId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="155" parent="17" name="homeTemplateId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="156" parent="17" name="balanceTemplateId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="157" parent="17" name="isAgent">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="158" parent="17" name="clientId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="159" parent="17" name="beginDate">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="160" parent="17" name="allUser">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="161" parent="17" name="resourceTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="162" parent="17" name="resourcePath">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="163" parent="17" name="isAggregate">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="164" parent="17" name="PRIMARY">
+      <columns>domainId
+netBarId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="165" parent="18" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="166" parent="18" name="name">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="167" parent="18" name="pwd">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="168" parent="18" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <index id="169" parent="18" name="addTime">
+      <columns>addTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="170" parent="18" name="index_np">
+      <columns>name
+pwd</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="171" parent="18" name="name">
+      <columns>name</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="172" parent="18" name="pwd">
+      <columns>pwd</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="173" parent="18" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="174" parent="19" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="175" parent="19" name="name">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="176" parent="19" name="pwd">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="177" parent="19" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <index id="178" parent="19" name="index_np">
+      <columns>name
+pwd</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="179" parent="19" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="180" parent="20" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="181" parent="20" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="182" parent="20" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="183" parent="20" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="184" parent="20" name="ipAddr">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="185" parent="20" name="a1">
+      <data-type>text|0</data-type>
+    </column>
+    <column id="186" parent="20" name="a2">
+      <data-type>text|0</data-type>
+    </column>
+    <column id="187" parent="20" name="a3">
+      <data-type>text|0</data-type>
+    </column>
+    <index id="188" parent="20" name="addTime">
+      <columns>addTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="189" parent="20" name="index_netDomain">
+      <columns>netBarId
+domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="190" parent="20" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="191" parent="21" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="192" parent="21" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="193" parent="21" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="194" parent="21" name="idCard">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="195" parent="21" name="processName">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="196" parent="21" name="qq">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="197" parent="21" name="startTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="198" parent="21" name="endTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="199" parent="21" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="200" parent="21" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="201" parent="22" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="202" parent="22" name="aqq">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="203" parent="22" name="createTime">
+      <comment>业务创建时间</comment>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="204" parent="22" name="num">
+      <comment>已经达到的条数</comment>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="205" parent="22" name="wantNum">
+      <comment>预期要达到的条数</comment>
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="206" parent="22" name="endTime">
+      <comment>达到十万条数据的时间</comment>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="207" parent="22" name="isUse">
+      <comment>0是可使用，1不可使用</comment>
+      <data-type>int(2)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="208" parent="22" name="domain">
+      <data-type>varchar(200)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="209" parent="22" name="url">
+      <data-type>varchar(200)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <index id="210" parent="22" name="aqq">
+      <columns>aqq</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <key id="211" parent="22" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <key id="212" parent="22" name="aqq">
+      <columns>aqq</columns>
+      <underlying-index>aqq</underlying-index>
+    </key>
+    <column id="213" parent="23" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="214" parent="23" name="qq">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="215" parent="23" name="tranTime">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="216" parent="23" name="a0">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="217" parent="23" name="Aqq">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="218" parent="23" name="date">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <index id="219" parent="23" name="aqqIndex">
+      <columns>Aqq</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="220" parent="23" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="221" parent="24" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="222" parent="24" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="223" parent="24" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="224" parent="24" name="pcName">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="225" parent="24" name="reportVersion">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="226" parent="24" name="addTime">
+      <data-type>date|0</data-type>
+    </column>
+    <index id="227" parent="24" name="addTime">
+      <columns>addTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="228" parent="24" name="index_dnpHotKey">
+      <columns>pcName
+netBarId
+domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="229" parent="24" name="index_dnpReport">
+      <columns>domainId
+netBarId
+pcName</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="230" parent="24" name="index_domainId">
+      <columns>domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="231" parent="24" name="index_reportVersion">
+      <columns>reportVersion</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="232" parent="24" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="233" parent="25" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="234" parent="25" name="netbarInfo_id">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="235" parent="25" name="netbarId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="236" parent="25" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="237" parent="25" name="versionName">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="238" parent="25" name="status">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="239" parent="25" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <index id="240" parent="25" name="addTime">
+      <columns>addTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="241" parent="25" name="domainId">
+      <columns>domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="242" parent="25" name="index_reqcounts">
+      <columns>versionName
+netbarId
+domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="243" parent="25" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="244" parent="26" name="tableName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="245" parent="26" name="serialNumber">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="246" parent="26" name="PRIMARY">
+      <columns>tableName</columns>
+      <primary>1</primary>
+    </key>
+    <column id="247" parent="27" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="248" parent="27" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="249" parent="27" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="250" parent="27" name="a0">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="251" parent="27" name="a1">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="252" parent="27" name="a2">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="253" parent="27" name="a3">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="254" parent="27" name="a4">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="255" parent="27" name="a5">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="256" parent="27" name="a6">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="257" parent="27" name="a7">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="258" parent="27" name="tranDate">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="259" parent="27" name="tranTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <index id="260" parent="27" name="idx_ShortcutExeService_dn">
+      <columns>domainId
+netBarId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="261" parent="27" name="idx_ShortcutExeService_td">
+      <columns>tranDate</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="262" parent="27" name="idx_ShortcutExeService_tt">
+      <columns>tranTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="263" parent="27" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="264" parent="28" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="265" parent="28" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="266" parent="28" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="267" parent="28" name="type">
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <column id="268" parent="28" name="home">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="269" parent="28" name="tranDate">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="270" parent="28" name="countNum">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <index id="271" parent="28" name="scesc_idx_domainId">
+      <columns>domainId
+type
+tranDate</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="272" parent="28" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="273" parent="29" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="274" parent="29" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="275" parent="29" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="276" parent="29" name="a0">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="277" parent="29" name="a1">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="278" parent="29" name="a2">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="279" parent="29" name="a3">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="280" parent="29" name="a4">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="281" parent="29" name="a5">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="282" parent="29" name="a6">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="283" parent="29" name="a7">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="284" parent="29" name="tranDate">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="285" parent="29" name="tranTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <index id="286" parent="29" name="idx_ShortcutService_dn">
+      <columns>domainId
+netBarId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="287" parent="29" name="idx_ShortcutService_td">
+      <columns>tranDate</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="288" parent="29" name="idx_ShortcutService_tt">
+      <columns>tranTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="289" parent="29" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="290" parent="30" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="291" parent="30" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="292" parent="30" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="293" parent="30" name="type">
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <column id="294" parent="30" name="home">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="295" parent="30" name="tranDate">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="296" parent="30" name="countNum">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <index id="297" parent="30" name="scesc_idx_domainId">
+      <columns>domainId
+type
+tranDate</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="298" parent="30" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="299" parent="31" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="300" parent="31" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="301" parent="31" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="302" parent="31" name="addDate">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="303" parent="31" name="reqCount">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="304" parent="31" name="clickCount">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <index id="305" parent="31" name="index_rct">
+      <columns>netBarId
+domainId
+addDate</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="306" parent="31" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="307" parent="32" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="308" parent="32" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="309" parent="32" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="310" parent="32" name="ipAddr">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="311" parent="32" name="CheckudoVersion">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="312" parent="32" name="synVersion">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="313" parent="32" name="status">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="314" parent="32" name="transDate">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="315" parent="32" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <index id="316" parent="32" name="addTime">
+      <columns>addTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="317" parent="32" name="domainId">
+      <columns>domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="318" parent="32" name="index_synIpNetDomain">
+      <columns>ipAddr
+netBarId
+domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="319" parent="32" name="index_synNetDomain">
+      <columns>netBarId
+domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="320" parent="32" name="index_synVerDomain">
+      <columns>domainId
+synVersion</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="321" parent="32" name="transDate">
+      <columns>transDate</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="322" parent="32" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="323" parent="33" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="324" parent="33" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="325" parent="33" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="326" parent="33" name="ipAddr">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="327" parent="33" name="CheckudoVersion">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="328" parent="33" name="synVersion">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="329" parent="33" name="status">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="330" parent="33" name="transDate">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="331" parent="33" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <index id="332" parent="33" name="addTime">
+      <columns>addTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="333" parent="33" name="index_ipNetDomain">
+      <columns>ipAddr
+netBarId
+domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="334" parent="33" name="index_netDomain">
+      <columns>netBarId
+domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="335" parent="33" name="index_synDomain">
+      <columns>synVersion
+domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="336" parent="33" name="transDate">
+      <columns>transDate</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="337" parent="33" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="338" parent="34" name="keyName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="339" parent="34" name="intValue1">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="340" parent="34" name="intValue2">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="341" parent="34" name="stringValue1">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="342" parent="34" name="stringValue2">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="343" parent="34" name="description">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <key id="344" parent="34" name="PRIMARY">
+      <columns>keyName
+intValue1</columns>
+      <primary>1</primary>
+    </key>
+    <column id="345" parent="35" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="346" parent="35" name="name">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="347" parent="35" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="348" parent="36" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="349" parent="36" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="350" parent="36" name="netBarId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="351" parent="36" name="tn">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="352" parent="36" name="count">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="353" parent="36" name="tranTime">
+      <data-type>date|0</data-type>
+    </column>
+    <index id="354" parent="36" name="IDX_TnCountService_domainId">
+      <columns>domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="355" parent="36" name="IDX_TnCountService_netBarId">
+      <columns>netBarId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="356" parent="36" name="IDX_TnCountService_tranTime">
+      <columns>tranTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="357" parent="36" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="358" parent="37" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="359" parent="37" name="domainId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="360" parent="37" name="netBarId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="361" parent="37" name="tn">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <key id="362" parent="37" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="363" parent="38" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="364" parent="38" name="netbarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="365" parent="38" name="udo">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="366" parent="38" name="checkUdo">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="367" parent="38" name="logUrl">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="368" parent="38" name="startTime">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="369" parent="38" name="endTime">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="370" parent="38" name="status">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="371" parent="38" name="addtime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="372" parent="38" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="373" parent="39" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="374" parent="39" name="paramName">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="375" parent="39" name="count">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="376" parent="39" name="addTime">
+      <data-type>date|0</data-type>
+    </column>
+    <index id="377" parent="39" name="addTime">
+      <columns>addTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="378" parent="39" name="index_paramName">
+      <columns>paramName</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="379" parent="39" name="paramName">
+      <columns>paramName</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="380" parent="40" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="381" parent="40" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="382" parent="40" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="383" parent="40" name="pcName">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="384" parent="40" name="versionHotKey">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="385" parent="40" name="addTime">
+      <data-type>date|0</data-type>
+    </column>
+    <index id="386" parent="40" name="addTime">
+      <columns>addTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="387" parent="40" name="index_dnpHotKey">
+      <columns>domainId
+netBarId
+pcName</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="388" parent="40" name="index_domainId">
+      <columns>domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="389" parent="40" name="index_versionHotKey">
+      <columns>versionHotKey</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="390" parent="40" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="391" parent="41" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="392" parent="41" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="393" parent="41" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="394" parent="41" name="netBarName">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="395" parent="41" name="pcName">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="396" parent="41" name="osVersion">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="397" parent="41" name="gamePlat">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="398" parent="41" name="udoVersion">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="399" parent="41" name="dodonewVersion">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="400" parent="41" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="401" parent="41" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="402" parent="42" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="403" parent="42" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="404" parent="42" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="405" parent="42" name="pcName">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="406" parent="42" name="versionHotKey">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="407" parent="42" name="addTime">
+      <data-type>date|0</data-type>
+    </column>
+    <index id="408" parent="42" name="addTime">
+      <columns>addTime</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="409" parent="42" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="410" parent="43" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="411" parent="43" name="domainId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="412" parent="43" name="netBarId">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="413" parent="43" name="ipAddr">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="414" parent="43" name="CheckudoVersion">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="415" parent="43" name="synVersion">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="416" parent="43" name="status">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="417" parent="43" name="transDate">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="418" parent="43" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <index id="419" parent="43" name="addTime_netBarId_domainId">
+      <columns>addTime
+netBarId
+domainId</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="420" parent="43" name="transDate">
+      <columns>transDate</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="421" parent="43" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="422" parent="46" name="u_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="423" parent="46" name="userName">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="424" parent="46" name="pwd">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="425" parent="46" name="r_id">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="426" parent="46" name="phone">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="427" parent="46" name="email">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="428" parent="46" name="status">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="429" parent="46" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="430" parent="46" name="PRIMARY">
+      <columns>u_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="431" parent="47" name="u_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="432" parent="47" name="userName">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="433" parent="47" name="pwd">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="434" parent="47" name="phone">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="435" parent="47" name="email">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="436" parent="47" name="status">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="437" parent="47" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="438" parent="47" name="PRIMARY">
+      <columns>u_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="439" parent="48" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="440" parent="48" name="name">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="441" parent="48" name="address">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="442" parent="48" name="phone">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="443" parent="48" name="addTime">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="444" parent="48" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
